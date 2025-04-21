@@ -1,13 +1,15 @@
-<<<<<<< HEAD
-/* ESTILO BASE (pantallas grandes) */
 .card-destacada {
     max-width: 270px;
     margin: 1rem auto; /* achica y le da margen a los costados */
 }
 
-/* MEDIANAS */
-@media screen and (max-width: 800px) {
-    .carousel-inner img {
+@media screen and (max-width: 800px){
+
+    .hero{
+        height: 220px;
+        width: auto;    
+     }
+      .carousel-inner img {
         height: 50vh;
         object-fit: cover;
         /* Asegura que las imágenes cubran el contenedor correctamente */
@@ -19,42 +21,12 @@
         max-height: 90vh;
         width: auto;
     }
-
-    .img-inicio-servicio {
-=======
-@media screen and (max-width: 800px){
-
-    .hero{
-        height: 220px;
-        width: auto;    
-     }
      .img-inicio-servicio{
->>>>>>> 57df20c0bd7115a495671c03421fa26c18cabcb5
         display: flex;
         flex-direction: column;
         max-width: 100%;
         max-height: auto;
     }
-<<<<<<< HEAD
-
-    .rows {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .row {
-        max-width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .fox {
-=======
     .rows{
         display: flex;
         flex-direction: column;
@@ -71,107 +43,30 @@
       
     }
     .fox{
->>>>>>> 57df20c0bd7115a495671c03421fa26c18cabcb5
         display: flex;
         flex-direction: column;
         gap: 2rem;
 
-<<<<<<< HEAD
-        .img-fox {
-=======
         .img-fox{
->>>>>>> 57df20c0bd7115a495671c03421fa26c18cabcb5
             max-width: 100%;
             max-height: auto;
         }
     }
-<<<<<<< HEAD
-
-    .quienes-somos {
-=======
     .quienes-somos{
->>>>>>> 57df20c0bd7115a495671c03421fa26c18cabcb5
         display: grid;
         grid-column: 1fr 1fr;
         grid-row: 1fr;
     }
-<<<<<<< HEAD
-
-    .servicio {
-        display: grid;
-        grid-column: 1fr 1fr;
-        grid-row: 1fr;
-
-        .img-servicio {
-=======
     .servicio {
         display: grid;
         grid-column: 1fr 1fr;
         grid-row: 1fr; 
         
         .img-servicio{
->>>>>>> 57df20c0bd7115a495671c03421fa26c18cabcb5
             max-width: 100%;
             max-height: auto;
         }
     }
-<<<<<<< HEAD
-
-    .logo-mapa {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .servicio .col {
-        order: 1;
-        margin-top: 0;
-        margin-bottom: 20px;
-    }
-
-    .servicio .col:first-child {
-        order: 2;
-    }
-
-    .n-2 .n-3 {
-        order: 1;
-        margin-top: 0;
-        margin-bottom: 20px;
-    }
-
-    .n-2 .n-3:last-child {
-        order: 2;
-    }
-
-    /* Ajuste para cards destacadas en pantallas medianas */
-    .card-destacada {
-        max-width: 65%;
-        margin: 1rem auto;
-    }
-}
-
-/* PANTALLAS MUY PEQUEÑAS */
-@media (max-width: 500px) {
-    .carousel-inner img {
-        height: 50vh;
-        object-fit: cover;
-        /* Asegura que las imágenes cubran el contenedor correctamente */
-    }
-    
-    .carousel-inner {
-        height: 50vh;
-        /* Establece la altura del carrusel*/
-        max-height: 10vh;
-        width: auto;
-    }
-
-    .img-inicio-servicio {
-        display: flex;
-        flex-direction: column;
-        max-width: 100%;
-        max-height: auto;
-    }
-
-=======
     .logo-mapa{
         max-width: 100%;
         height: auto;
@@ -197,7 +92,6 @@
 }
 
 @media (max-width: 500px) {
->>>>>>> 57df20c0bd7115a495671c03421fa26c18cabcb5
     .row {
         display: flex;
         flex-direction: column;
@@ -209,20 +103,7 @@
         margin-bottom: 20px;
     }
 
-<<<<<<< HEAD
-    .card-destacada {
-        width: 60% !important;
-        margin: 1rem auto;
-    }
-    
-}
-
-=======
     .card {
         width: 100%;
     }
 }
-
-
-
->>>>>>> 57df20c0bd7115a495671c03421fa26c18cabcb5
