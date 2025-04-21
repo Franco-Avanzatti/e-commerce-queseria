@@ -1,0 +1,38 @@
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+
+    .header-amarillo{
+        background-color: $main-color;
+        padding: 5px;
+
+        .instagram-header{
+            color: black;
+<<<<<<< HEAD
+        
+=======
+>>>>>>> 57df20c0bd7115a495671c03421fa26c18cabcb5
+        }
+    }
+    .header-black{
+        background-color: black;
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 116px;
+    }
+    .padre{
+        font-family: $font;
+        background-color: black; 
+
+        .dropdown-item{
+            color: gray;   
+        }   
+    }
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 57df20c0bd7115a495671c03421fa26c18cabcb5
