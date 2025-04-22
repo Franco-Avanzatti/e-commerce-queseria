@@ -2,16 +2,18 @@
 =                   INDEX                     =
 =============================================*/
 .carousel-inner img {
-    height: 60vh;
-    object-fit: cover;
-    /* Asegura que las imágenes cubran el contenedor correctamente */
+    width: 100%; /* Llena el ancho */
+    height: auto; /* Conserva proporción natural */
+    object-fit: contain; /* Evita zoom o recorte */
+    display: block;
+    margin: 0 auto;
 }
 
 .carousel-inner {
-    height: 60vh;
-    /* Establece la altura del carrusel*/
-    min-height: 40vh;
-    width: auto;
+    height: auto; /* Que se adapte a la imagen */
+    max-height: 72vh; /* Limita el alto del carrusel */
+    width: 100%;
+    overflow: hidden; /* Por si alguna imagen se pasa */
 }
 .destacados{
     font-family: $font-2;
