@@ -1,17 +1,33 @@
-$primary: #d8b411;
-$danger: #ff4136;
+/*=============================================
+=            PALETA — Quesería del Campo      =
+=============================================*/
 
+// — Dorados
+$main-color:     #DDB500;  // dorado principal → botones, activos, acentos
+$main-light:     #F5CC3A;  // dorado claro     → hover de botones
+$main-dark:      #A88A00;  // dorado oscuro    → texto dorado sobre fondos claros
+$main-pale:      #FFF3C4;  // crema dorada     → fondos sutiles / badges
+
+// — Negros y grises
+$black-absolute: #0D0D0D;  // fondo principal / header
+$black-soft:     #1A1A1A;  // cards / nav / footer
+$black-carbon:   #2E2E2E;  // bordes / separadores / hover
+$gray-mid:       #5C5C5C;  // texto secundario / íconos
+$off-white:      #FAF7EE;  // texto sobre oscuro / fondo claro alternativo
+$white:          #FFFFFF;
+
+/*=============================================
+=          BOOTSTRAP — THEME COLORS           =
+=============================================*/
+
+// Usamos $main-color para que Bootstrap respete la paleta
+$primary: $main-color;  // antes: #d8b411 — ahora apunta a la variable
+$danger:  #ff4136;      // se mantiene igual
 
 $theme-colors: (
   "primary": $primary,
-  "danger": $danger
+  "danger":  $danger
 );
-
-
-
-
-    
-
     
     
 

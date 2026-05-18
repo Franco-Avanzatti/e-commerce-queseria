@@ -1,116 +1,116 @@
+/*=============================================
+=               MEDIA QUERIES                 =
+=============================================*/
+
 .card-destacada {
     max-width: 270px;
-    margin: 1rem auto; /* achica y le da margen a los costados */
+    margin: 1rem auto;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
 
-    .hero{
+    .hero {
         height: 220px;
-        width: auto;    
-     }
-      .carousel-inner img {
-        height: 50vh;
-        object-fit: cover;
-        /* Asegura que las imágenes cubran el contenedor correctamente */
-    }
-    
-    .carousel-inner {
-        height: 50vh;
-        /* Establece la altura del carrusel*/
-        max-height: 90vh;
         width: auto;
     }
-     .img-inicio-servicio{
+
+    .carousel-inner img {
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .carousel-inner {
+        height: 50vh;
+        max-height: 90vh;
+        width: auto;
+        background-color: $black-absolute;
+    }
+
+    .img-inicio-servicio {
         display: flex;
         flex-direction: column;
         max-width: 100%;
         max-height: auto;
     }
-    .rows{
+
+    .rows {
         display: flex;
         flex-direction: column;
     }
-    .container{
-        padding-left: 0;
-        padding-right: 0;
-        
-    }
-    .row{
-       max-width: 100%;
-       margin-left: 0;
-       margin-right: 0;
-      
-    }
-    .fox{
+
+    .fox {
         display: flex;
         flex-direction: column;
         gap: 2rem;
 
-        .img-fox{
+        .img-fox {
             max-width: 100%;
             max-height: auto;
         }
     }
-    .quienes-somos{
+
+    .quienes-somos {
         display: grid;
         grid-column: 1fr 1fr;
         grid-row: 1fr;
     }
+
     .servicio {
         display: grid;
         grid-column: 1fr 1fr;
-        grid-row: 1fr; 
-        
-        .img-servicio{
+        grid-row: 1fr;
+
+        .img-servicio {
             max-width: 100%;
             max-height: auto;
+            border-color: $black-carbon; // usa variable en lugar de hardcode
         }
     }
-    .logo-mapa{
+
+    .logo-mapa {
         max-width: 100%;
         height: auto;
     }
+
     .servicio .col {
-        order: 1; 
-        margin-top: 0; 
+        order: 1;
+        margin-top: 0;
         margin-bottom: 20px;
     }
-    .servicio .col:first-child{
-        order: 2; 
-    }
-    .n-2 .n-3 {
-        order: 1; 
-        margin-top: 0; 
-        margin-bottom: 20px; 
-    }
-    .n-2 .n-3:last-child{
-        order: 2; 
-   
+
+    .servicio .col:first-child {
+        order: 2;
     }
 
+    .n-2 .n-3 {
+        order: 1;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .n-2 .n-3:last-child {
+        order: 2;
+    }
 }
 
 @media (max-width: 500px) {
+
+    .sticky .header-black {
+        height: auto;
+        padding: 1rem;
+        border-bottom-color: $black-carbon;
+    }
+
     .carousel-inner img {
-     height: 50vh; 
-     
+        height: 50vh;
     }
-    
+
     .carousel-inner {
-      height:auto;
-      width: 100%;
-    }
-    
-    
-    .row {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        height: auto;
+        width: 100%;
     }
 
     .col {
-        width: 100%;
         margin-bottom: 20px;
     }
 

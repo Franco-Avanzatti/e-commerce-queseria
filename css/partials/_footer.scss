@@ -1,49 +1,101 @@
-footer{
-    background-color:#8c8c8c42;
+/*=============================================
+=                   FOOTER                    =
+=============================================*/
+
+footer {
+    background-color: $black-carbon;
     padding: 1rem;
     list-style-type: none;
-    h6{
-    color: $main-color;
-    font-family:$font; 
-    }
-     
 
-    .row{
+    h6 {
+        color: $main-color;
+        font-family: $font;
+    }
+
+    .row {
         text-align: center;
 
-        .p-footer{
+        .p-footer {
             max-width: 90%;
+            color: $white;
         }
+
         .menu-inferior {
-           
-            a{
+            a {
                 list-style-type: none;
                 text-decoration: none;
-                color: black; 
+                color: $off-white;
+                padding: 2px 8px;
+                border-radius: 5px;
+                transition: background-color 0.2s ease, color 0.2s ease;
             }
         }
-        .categories:hover{
+
+        .categories:hover {
             background-color: $main-color;
-            border-radius: 5%;
-        }
-        .contacto {
-            a{
-                color: black;
-            }
-        }
-    }
-     .contact:hover{
-            background-color: $main-color;
+            color: $black-absolute;
             border-radius: 5px;
         }
-    .arrepentimiento:hover{
-        background-color: $main-color;
-        border-radius: 5px;
 
+        .contacto {
+            a {
+                color: $white;
+                transition: color 0.2s ease;
+
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
     }
-    .quienes-footer{
-        color: black;
+
+    .contact {
+        padding: 4px;
+        border-radius: 5px;
+        transition: background-color 0.2s ease, color 0.2s ease;
+
+        &:hover {
+            background-color: $main-color;
+            color: $black-absolute !important;
+            border-radius: 5px;
+        }
+    }
+
+    .arrepentimiento {
+        background-color: transparent;
+        color: $off-white;
+        transition: background-color 0.2s ease, color 0.2s ease;
+
+        &:hover {
+            background-color: $main-color;
+            color: $black-absolute;
+            border-radius: 5px;
+        }
+    }
+
+    .quienes-footer {
+        color: $off-white;
         text-decoration: none;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: $main-color;
+        }
     }
-    
+}
+
+.copyright {
+    border-top: 1px solid $black-carbon;
+    padding-top: 0.75rem;
+    margin-top: 0;
+    color: $off-white;
+    font-size: 0.82rem;
+
+    p {
+        margin-bottom: 0;
+    }
+
+    a {
+        color: $gray-mid;
+    }
 }
