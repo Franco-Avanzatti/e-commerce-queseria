@@ -201,6 +201,20 @@
             color: $black-absolute;
         }
     }
+
+    /* precio/kg en el item del cart */
+    .card-peso {
+        font-size: 0.82rem;
+        color: #555;
+        margin-bottom: 4px;
+    }
+
+    .card-nota-horma {
+        font-size: 0.78rem;
+        color: #888;
+        font-style: italic;
+        margin-bottom: 8px;
+    }
 }
 
 .badge-nuevo {
@@ -218,16 +232,19 @@
 }
 
 .whatsapp-float {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  background: #25d366;
-  color:$off-white;
-  border-radius: 45%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #25d366;
+    color: $off-white;
+    border-radius: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
 }
+
+
+

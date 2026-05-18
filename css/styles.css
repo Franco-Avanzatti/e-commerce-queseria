@@ -11722,6 +11722,20 @@ body {
   background-color: #F5CC3A;
   color: #0D0D0D;
 }
+.card {
+  /* precio/kg en el item del cart */
+}
+.card .card-peso {
+  font-size: 0.82rem;
+  color: #555;
+  margin-bottom: 4px;
+}
+.card .card-nota-horma {
+  font-size: 0.78rem;
+  color: #888;
+  font-style: italic;
+  margin-bottom: 8px;
+}
 
 .badge-nuevo {
   position: absolute;
@@ -11943,6 +11957,51 @@ body {
   transform: scale(1.15);
 }
 
+.cart-section-header {
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #DDB500;
+  padding: 8px 0 4px;
+}
+
+.cart-section-divider {
+  border-top: 1px solid #ddd;
+  margin: 12px 0;
+}
+
+.cart-horma-nota {
+  font-size: 0.75rem;
+  color: #888;
+  margin: 4px 0 8px;
+}
+
+.cart-item-xkg {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.cart-hormas-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2E2E2E;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+}
+
+.cart-hormas-label {
+  color: #DDB500;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.cart-hormas-value {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .cart-footer {
   padding: 1.25rem 1.5rem;
   border-top: 1px solid #2E2E2E;
@@ -11955,7 +12014,7 @@ body {
   justify-content: space-between;
 }
 .cart-footer .cart-total span {
-  color: #5C5C5C;
+  color: #FFFFFF;
   font-size: 13px;
 }
 .cart-footer .cart-total strong {

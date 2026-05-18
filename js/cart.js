@@ -10,8 +10,8 @@ function saveCart() {
 }
 
 function loadCart() {
-    const storedCart = localStorage.getItem('cart');
-    return storedCart ? JSON.parse(storedCart) : [];
+    const stored = localStorage.getItem('cart');
+    return stored ? JSON.parse(stored) : [];
 }
 
 // ── Estado inicial ──────────────────────────
@@ -19,28 +19,14 @@ let cart = loadCart();
 
 // ── Abrir / cerrar ──────────────────────────
 function openCart() {
-
-    document
-        .querySelector('.cart-overlay')
-        .classList.add('active');
-
-    document
-        .querySelector('.cart-sheet')
-        .classList.add('active');
-
+    document.querySelector('.cart-overlay').classList.add('active');
+    document.querySelector('.cart-sheet').classList.add('active');
     document.body.style.overflow = 'hidden';
 }
 
 function closeCart() {
-
-    document
-        .querySelector('.cart-overlay')
-        .classList.remove('active');
-
-    document
-        .querySelector('.cart-sheet')
-        .classList.remove('active');
-
+    document.querySelector('.cart-overlay').classList.remove('active');
+    document.querySelector('.cart-sheet').classList.remove('active');
     document.body.style.overflow = '';
 }
 
@@ -52,41 +38,26 @@ function addToCart(producto) {
     );
 
     if (existing) {
-
         existing.cantidad++;
-
     } else {
-
-        cart.push({
-            ...producto,
-            cantidad: 1
-        });
+        cart.push({ ...producto, cantidad: 1 });
     }
 
     saveCart();
     renderCart();
     updateCartBadge();
-
-    // ❌ Ya NO abre automáticamente
-    // openCart();
 }
 
 // ── Cambiar cantidad ────────────────────────
 function changeQty(nombre, delta) {
 
-    const item = cart.find(
-        i => i.nombre === nombre
-    );
-
+    const item = cart.find(i => i.nombre === nombre);
     if (!item) return;
 
     item.cantidad += delta;
 
     if (item.cantidad <= 0) {
-
-        cart = cart.filter(
-            i => i.nombre !== nombre
-        );
+        cart = cart.filter(i => i.nombre !== nombre);
     }
 
     saveCart();
@@ -96,11 +67,7 @@ function changeQty(nombre, delta) {
 
 // ── Eliminar producto ───────────────────────
 function removeItem(nombre) {
-
-    cart = cart.filter(
-        item => item.nombre !== nombre
-    );
-
+    cart = cart.filter(item => item.nombre !== nombre);
     saveCart();
     renderCart();
     updateCartBadge();
@@ -108,9 +75,7 @@ function removeItem(nombre) {
 
 // ── Vaciar carrito ──────────────────────────
 function clearCart() {
-
     cart = [];
-
     saveCart();
     renderCart();
     updateCartBadge();
@@ -118,178 +83,244 @@ function clearCart() {
 
 // ── Extraer número del precio ───────────────
 function parsePrecio(precioStr) {
-
-    return Number(
-        precioStr.replace(/[^0-9]/g, '')
-    );
+    return Number(precioStr.replace(/[^0-9]/g, ''));
 }
 
-// ── Total ───────────────────────────────────
+// ── Total (solo productos de precio fijo) ───
 function getTotal() {
-
-    return cart.reduce((sum, item) => {
-
-        return sum +
-            parsePrecio(item.precio) *
-            item.cantidad;
-
-    }, 0);
+    return cart
+        .filter(item => item.tipoVenta === 'fijo')
+        .reduce((sum, item) => {
+            return sum + parsePrecio(item.precio) * item.cantidad;
+        }, 0);
 }
 
 // ── Badge del ícono ─────────────────────────
 function updateCartBadge() {
 
     const badge = document.querySelector('.cart-badge');
-
     if (!badge) return;
 
     const totalItems = cart.reduce(
-        (sum, item) => sum + item.cantidad,
-        0
+        (sum, item) => sum + item.cantidad, 0
     );
 
     badge.textContent = totalItems;
+    badge.style.display = totalItems > 0 ? 'flex' : 'none';
+}
 
-    badge.style.display =
-        totalItems > 0 ? 'flex' : 'none';
+// ── Helper: HTML de un ítem del carrito ─────
+function itemHTML(item) {
+
+    const nombreEsc = item.nombre.replace(/'/g, "\\'");
+
+    const precioLabel = item.tipoVenta === 'horma'
+        ? `<span class="cart-item-xkg">${item.precio}</span>`
+        : `<span>${item.precio}</span>`;
+
+    return `
+        <div class="cart-item">
+            <img src="${item.imagen}" alt="${item.alt}">
+            <div class="cart-item-info">
+                <p>${item.nombre}</p>
+                ${precioLabel}
+            </div>
+            <div class="cart-item-controls">
+                <button onclick="changeQty('${nombreEsc}', -1)">−</button>
+                <span>${item.cantidad}</span>
+                <button onclick="changeQty('${nombreEsc}', 1)">+</button>
+            </div>
+            <div class="cart-remove">
+                <i class="bi bi-x" onclick="removeItem('${nombreEsc}')"></i>
+            </div>
+        </div>
+    `;
 }
 
 // ── Render del carrito ──────────────────────
 function renderCart() {
 
-    const cartItems =
-        document.querySelector('.cart-items');
-
-    const cartFooter =
-        document.querySelector('.cart-footer');
+    const cartItems = document.querySelector('.cart-items');
+    const cartFooter = document.querySelector('.cart-footer');
 
     if (!cartItems) return;
 
-    // ── Carrito vacío ───────────────────────
+    // ── Carrito vacío ───────────────────────────────────────────
     if (cart.length === 0) {
-
         cartItems.innerHTML = `
             <div class="cart-empty">
                 <i class="bi bi-bag-x"></i>
                 <p>Tu carrito está vacío</p>
             </div>
         `;
-
         cartFooter.style.display = 'none';
-
         return;
     }
 
-    // ── Mostrar footer ──────────────────────
     cartFooter.style.display = 'flex';
 
-    // ── Render items ────────────────────────
-    cartItems.innerHTML = cart.map(item => `
+    // ── Separar ítems por tipo de venta ────────────────────────
+    const hormas = cart.filter(i => i.tipoVenta === 'horma');
+    const fijos = cart.filter(i => i.tipoVenta === 'fijo');
 
-        <div class="cart-item">
+    let html = '';
 
-            <img src="${item.imagen}" alt="${item.alt}">
-
-            <div class="cart-item-info">
-
-                <p>${item.nombre}</p>
-
-                <span>${item.precio}</span>
-
+    // ── Sección HORMAS ──────────────────────────────────────────
+    if (hormas.length > 0) {
+        html += `
+            <div class="cart-section-header">
+                <i class="bi bi-basket2"></i>
+                Venta de Hormas
             </div>
+        `;
+        html += hormas.map(itemHTML).join('');
+        html += `
+            <p class="cart-horma-nota">
+                <i class="bi bi-info-circle"></i>
+                El precio final de cada horma se confirma al momento del pesaje.
+            </p>
+        `;
+    }
 
-            <div class="cart-item-controls">
+    // ── Divisor (solo si hay ambos tipos) ──────────────────────
+    if (hormas.length > 0 && fijos.length > 0) {
+        html += `<div class="cart-section-divider"></div>`;
+    }
 
-                <button
-                    onclick="changeQty('${item.nombre.replace(/'/g, "\\'")}', -1)"
-                >
-                    −
-                </button>
-
-                <span>${item.cantidad}</span>
-
-                <button
-                    onclick="changeQty('${item.nombre.replace(/'/g, "\\'")}', 1)"
-                >
-                    +
-                </button>
-
+    // ── Sección PRECIO FIJO ─────────────────────────────────────
+    if (fijos.length > 0) {
+        html += `
+            <div class="cart-section-header">
+                <i class="bi bi-bag-check"></i>
+                Otros productos
             </div>
+        `;
+        html += fijos.map(itemHTML).join('');
+    }
 
-            <!-- ❌ Eliminar -->
-            <div class="cart-remove">
+    cartItems.innerHTML = html;
 
-                <i 
-                    class="bi bi-x"
-                    onclick="removeItem('${item.nombre.replace(/'/g, "\\'")}')"
-                ></i>
+    // ── Total hormas en footer ──────────────────────────────────
+    const hormasSummary = document.querySelector('.cart-hormas-summary');
+    const hormasLabel = document.querySelector('.cart-hormas-label');
 
-            </div>
+    if (hormasSummary && hormasLabel) {
+        if (hormas.length > 0) {
+            const totalUnidades = hormas.reduce(
+                (sum, i) => sum + i.cantidad, 0
+            );
+            hormasLabel.textContent = `Total hormas (${totalUnidades}):`;
+            hormasSummary.style.display = 'flex';
+        } else {
+            hormasSummary.style.display = 'none';
+        }
+    }
 
-        </div>
+    // ── Total fijos en footer ───────────────────────────────────
+    const totalEl = document.querySelector('.cart-total-amount');
+    if (totalEl) {
+        const total = getTotal();
+        totalEl.textContent = total > 0
+            ? '$' + total.toLocaleString('es-AR')
+            : '—';
+    }
 
-    `).join('');
-
-    // ── Total ───────────────────────────────
-    document.querySelector('.cart-total-amount')
-        .textContent =
-        '$' + getTotal().toLocaleString('es-AR');
+    // ── Etiqueta del total ──────────────────────────────────────
+    const totalLabel = document.querySelector('.cart-total-label');
+    if (totalLabel) {
+        totalLabel.textContent = hormas.length > 0 && fijos.length > 0
+            ? 'Total (sin hormas):'
+            : 'Total:';
+    }
 }
+
 
 // ── Enviar a WhatsApp ───────────────────────
 function sendToWhatsApp() {
 
     if (cart.length === 0) return;
 
-    let mensaje =
-        '🧀 *Pedido — Quesería del Campo*\n\n';
+    const hormas = cart.filter(i => i.tipoVenta === 'horma');
+    const fijos = cart.filter(i => i.tipoVenta === 'fijo');
 
-    cart.forEach(item => {
+    let mensaje = '🧀 *Pedido — Quesería del Campo*\n\n';
 
-        const subtotal =
-            parsePrecio(item.precio) *
-            item.cantidad;
+    let totalFijos = 0;
 
-        mensaje += `▪ *${item.nombre}*\n`;
+    // ── HORMAS ───────────────────────────────
+    if (hormas.length > 0) {
 
-        mensaje +=
-            `Cantidad: ${item.cantidad} | ` +
-            `Subtotal: $${subtotal.toLocaleString('es-AR')}\n\n`;
+        const totalUnidades = hormas.reduce(
+            (sum, i) => sum + i.cantidad, 0
+        );
 
-    });
+        mensaje += '───────────────\n';
+        mensaje += '🥩 *VENTA DE HORMAS*\n';
+        mensaje += '_(precio sujeto al pesaje final)_\n\n';
 
-    mensaje += `─────────────────────\n`;
+        hormas.forEach(item => {
 
-    mensaje +=
-        `💰 *Total: $${getTotal().toLocaleString('es-AR')}*\n\n`;
+            mensaje += `🔸 *${item.nombre}*\n`;
+            mensaje += `📦 Cantidad: ${item.cantidad}\n`;
+            mensaje += `💲 Precio referencia: ${item.precio}\n\n`;
 
-    mensaje +=
-        `¡Hola! Me gustaría realizar este pedido 🙌`;
+        });
 
-    const url =
-        `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(mensaje)}`;
+        mensaje += `📊 *Total hormas:* ${totalUnidades} unidades\n`;
+        mensaje += `⚖️ *Importe:* A confirmar al pesar\n\n`;
+    }
 
-    // ── Vaciar carrito ──────────────────────
+    // ── PRODUCTOS FIJOS ─────────────────────
+    if (fijos.length > 0) {
+
+        mensaje += '───────────────\n';
+        mensaje += '🛒 *PRODUCTOS DE PRECIO FIJO*\n\n';
+
+        fijos.forEach(item => {
+
+            const subtotal =
+                parsePrecio(item.precio) * item.cantidad;
+
+            totalFijos += subtotal;
+
+            mensaje += `🔸 *${item.nombre}*\n`;
+            mensaje += `📦 Cantidad: ${item.cantidad}\n`;
+            mensaje += `💵 Subtotal: $${subtotal.toLocaleString('es-AR')}\n\n`;
+
+        });
+
+        mensaje += `💰 *Total productos fijos:* $${totalFijos.toLocaleString('es-AR')}\n\n`;
+    }
+
+    // ── RESUMEN FINAL ───────────────────────
+    mensaje += '───────────────\n';
+    mensaje += '📋 *RESUMEN FINAL*\n';
+
+    if (hormas.length > 0) {
+        mensaje += '⚖️ Hormas: A confirmar\n';
+    }
+
+    if (fijos.length > 0) {
+        mensaje += `💰 Productos fijos: $${totalFijos.toLocaleString('es-AR')}\n`;
+    }
+
+    mensaje += '\n🙌 ¡Hola! Quisiera realizar este pedido.';
+
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(mensaje)}`;
+
     clearCart();
-
-    // ── Cerrar cart sheet ───────────────────
     closeCart();
 
-    // ── Abrir WhatsApp ──────────────────────
     window.open(url, '_blank');
 }
 
 // ── Init ────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
 
-    // Click overlay
     document
         .querySelector('.cart-overlay')
         ?.addEventListener('click', closeCart);
 
-    // Restaurar carrito
     renderCart();
-
-    // Restaurar badge
     updateCartBadge();
 });
