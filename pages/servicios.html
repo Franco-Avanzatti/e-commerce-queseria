@@ -4,8 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- SEO -->
   <meta name="description" content="Tienda Online de Queseria del Campo, Nuestro Servicio">
   <meta name="keywords" content="quesería servicios entregas picadas fiambre quesos">
   <meta name="author" content="Franco Avanzatti">
@@ -38,7 +36,6 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <h1>Quesería del Campo</h1>
-      <!-- 🛒 Carrito -->
       <button class="cart-toggle" onclick="openCart()" aria-label="Abrir carrito">
         <i class="bi bi-bag"></i>
         <span class="cart-badge">0</span>
@@ -78,27 +75,51 @@
   <main>
 
     <!-- SERVICIOS -->
-    <div class="container text-center">
-      <div class="servicio row row-col-2 mt-3">
-        <div class="col mt-5">
-          <img class="img-servicio" src="../images/servicios/2.png" alt="Servicio de Picadas">
+    <section class="servicios">
+
+      <!-- SERVICIO 1 -->
+      <div class="servicio-card">
+        <div class="servicio-img">
+          <img src="../images/servicios/2.png" alt="Picadas personalizadas con quesos y fiambres">
+          <span class="servicio-badge">Hecho a medida</span>
         </div>
-        <div class="col d-flex flex-column justify-content-center gap-1">
-          <h2>Picadas Personalizadas</h2>
-          <p>Personalizamos tu tabla de quesos y fiambres con nuestros productos de acuerdo a la cantidad de comensales.
-          </p>
+        <div class="servicio-content">
+          <span class="servicio-numero">01 — Picadas</span>
+          <h3 class="servicio-titulo">Picadas Personalizadas</h3>
+          <p class="servicio-desc">Armamos tu tabla de quesos y fiambres con nuestros mejores productos, adaptada a la
+            cantidad de comensales que necesités.</p>
+          <a href="https://wa.me/5491168123784?text=Hola!%20Quiero%20encargar%20una%20picada" class="servicio-link">
+            Consultanos las opciones
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
         </div>
       </div>
-      <div class="servicio n-2 row row-col-2">
-        <div class="col d-flex flex-column justify-content-center mt-5 gap-1">
-          <h2>Entregas a Domicilio</h2>
-          <p>Llevamos tu pedido a la puerta de tu casa con un valor mínimo establecido.</p>
+
+      <!-- SERVICIO 2 — imagen a la derecha en desktop -->
+      <div class="servicio-card reverse">
+        <div class="servicio-content">
+          <span class="servicio-numero">02 — Delivery</span>
+          <h3 class="servicio-titulo">Entregas a Domicilio</h3>
+          <p class="servicio-desc">Llevamos tu pedido a la puerta de tu casa. Contamos con un valor mínimo de pedido y
+            zonas de reparto establecidas.</p>
+          <a href="https://wa.me/5491168123784?text=Hola!%20Quiero%20hacer%20un%20pedido" class="servicio-link">
+            Zona Marcos Paz, Las heras, Villars
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
         </div>
-        <div class="col n-3">
-          <img class="img-servicio" src="../images/servicios/1.png" alt="Servicio de Delivery">
+        <div class="servicio-img">
+          <img src="../images/servicios/1.png" alt="Servicio de delivery a domicilio">
+          <span class="servicio-badge">A tu puerta</span>
         </div>
       </div>
-    </div>
+
+    </section>
 
   </main>
 
@@ -152,68 +173,44 @@
   </footer>
 
   <!--=====================================
-=              CART SHEET               =
-======================================-->
+  =              CART SHEET               =
+  ======================================-->
 
-  <!-- Overlay -->
   <div class="cart-overlay"></div>
 
-  <!-- Panel -->
   <div class="cart-sheet">
-
-    <!-- Header -->
     <div class="cart-header">
-
       <h5>
         Tu Carrito
         <span id="cart-count"></span>
       </h5>
-
       <button class="cart-close" onclick="closeCart()">
         <i class="bi bi-x-lg"></i>
       </button>
-
     </div>
-
-    <!-- Productos -->
     <div class="cart-items">
-
       <div class="cart-empty">
         <i class="bi bi-bag-x"></i>
         <p>Tu carrito está vacío</p>
       </div>
-
     </div>
-
-    <!-- Footer -->
     <div class="cart-footer" style="display: none;">
       <div class="cart-hormas-summary" style="display:none">
         <span class="cart-hormas-label"></span>
         <span class="cart-hormas-value">A confirmar</span>
       </div>
-
-      <!-- Total -->
       <div class="cart-total">
         <span>Total</span>
         <strong class="cart-total-amount">$0</strong>
       </div>
-
-      <!-- Vaciar -->
-      <button class="cart-clear-btn" onclick="clearCart()">
-        Vaciar carrito
-      </button>
-
-      <!-- WhatsApp -->
+      <button class="cart-clear-btn" onclick="clearCart()">Vaciar carrito</button>
       <button class="cart-whatsapp-btn" onclick="sendToWhatsApp()">
         <i class="bi bi-whatsapp"></i>
         Hacer pedido por WhatsApp
       </button>
-
     </div>
-
   </div>
 
-  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
@@ -225,7 +222,28 @@
       menu.classList.toggle('show');
     });
   </script>
+  <script>
+    const cards = document.querySelectorAll('.servicio-card');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, i * 200);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0 });
+
+    cards.forEach(card => observer.observe(card));
+  </script>
   <script src="../js/cart.js"></script>
+
+  <a href="https://wa.me/5491168123784?text=Hola!%20Quiero%20hacer%20un%20pedido" class="whatsapp-float" target="_blank"
+    rel="noopener noreferrer">
+    <i class="bi bi-whatsapp"></i>
+  </a>
 
 </body>
 
