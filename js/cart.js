@@ -262,7 +262,6 @@ function sendToWhatsApp() {
 
             mensaje += `🔸 *${item.nombre}*\n`;
             mensaje += `📦 Cantidad: ${item.cantidad}\n`;
-            mensaje += `💲 Precio referencia: ${item.precio}\n\n`;
 
         });
 

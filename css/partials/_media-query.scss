@@ -1,6 +1,17 @@
 /*=============================================
 =               MEDIA QUERIES                 =
 =============================================*/
+@media (max-width: 991px) {
+  .logo {
+    max-height: 170px;
+  }
+
+  .header-black {
+    min-height: 80px;
+    padding: 5px 20px;
+  }
+}
+
 
 .card-destacada {
     max-width: 270px;

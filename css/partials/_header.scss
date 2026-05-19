@@ -1,7 +1,21 @@
 /*=============================================
 =                   HEADER                    =
 =============================================*/
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 
+  img {
+    max-height: 250px;
+    max-width: 100%;
+    width: auto;
+
+    @media (max-width: 991px) {
+      max-height: 150px;
+    }
+  }
+}
 .header-amarillo {
   background-color: #d9b300;
   height: 28px;
@@ -27,18 +41,21 @@
 
     .header-black {
         background-color: $black-carbon;
-        padding: 3rem;
+        padding: 10px 20px;
         display: flex;
         align-items: center;
-        justify-content: center;
-        height: 116px;
+        justify-content: space-between;
         border-bottom: 2px solid $black-carbon;
         position: relative;
+        min-height: 80px; 
+
+        @media (min-width: 992px) {
+        min-height: 125px;
+    }
 
         h1 {
             color: $white;
         }
-
         .navbar-toggler {
             position: absolute;
             left: 1rem;
