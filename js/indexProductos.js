@@ -7,74 +7,37 @@ const productos = [
     // ── QUESOS ──────────────────────────────
     {
         nombre: "Cremoso Javifer por Horma",
-        precio: "$6030 xkg",
-        pesoEstimado: "3 – 4 kg",
-        imagen: "/images/quesos/2.png",
+        precio: "$7.000 xkg",
+        pesoEstimado: "4 – 4.5 kg",
+        imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300403/2_ajacm4.png",
         alt: "Cremoso Javifer",
         categoria: "quesos",
         tipoVenta: "horma"
     },
     {
         nombre: "Cremoso Punta del Agua por Horma",
-        precio: "$6200 xkg",
-        pesoEstimado: "3 – 4 kg",
-        imagen: "/images/quesos/3.png",
+        precio: "$9.000 xkg",
+        pesoEstimado: "3.8 – 4.5 kg",
+        imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300402/3_iwviux.png",
         alt: "Cremoso Punta del Agua",
         categoria: "quesos",
         tipoVenta: "horma"
     },
     {
-        nombre: "Barra Javifer por Horma",
-        precio: "$7700 xkg",
-        pesoEstimado: "3 – 5 kg",
-        imagen: "/images/quesos/1.png",
-        alt: "Barra Javifer",
+        nombre: "Pategrast Melincue",
+        precio: "$15.200 xkg",
+        pesoEstimado: "4 – 4.5 kg",
+        imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779303045/copy_of_quesosduros-3_qogp3s.png",
+        alt: "Pategrast Melincue",
         categoria: "quesos",
         tipoVenta: "horma"
     },
-    {
-        nombre: "Muzzarella Javifer por Horma",
-        precio: "$7200 xkg",
-        pesoEstimado: "1 – 2 kg",
-        imagen: "/images/quesos/4.png",
-        alt: "Muzzarella Javifer",
-        categoria: "quesos",
-        tipoVenta: "horma"
-    },
-
-    // ── FIAMBRES ────────────────────────────
-    {
-        nombre: "Paleta Fox (Etiqueta Azul)",
-        precio: "$3350 xkg",
-        pesoEstimado: "6 – 8 kg",
-        imagen: "/images/fiambres/Etiqueta-Azul.png",
-        alt: "Paleta Fox Etiqueta Azul",
-        categoria: "fiambres",
-        tipoVenta: "horma"
-    },
-    {
-        nombre: "Paleta Fox (Etiqueta Amarilla)",
-        precio: "$3200 xkg",
-        pesoEstimado: "6 – 8 kg",
-        imagen: "/images/fiambres/Etiqueta-Amarilla.png",
-        alt: "Paleta Fox Etiqueta Amarilla",
-        categoria: "fiambres",
-        tipoVenta: "horma"
-    },
-    {
-        nombre: "Paleta Fox (Etiqueta Roja)",
-        precio: "$4100 xkg",
-        pesoEstimado: "6 – 8 kg",
-        imagen: "/images/fiambres/Etiqueta-Roja.png",
-        alt: "Paleta Fox Etiqueta Roja",
-        categoria: "fiambres",
-        tipoVenta: "horma"
-    },
+    // ── FIAMBES ─────────────────────────────
     {
         nombre: "Paleta Fox (Etiqueta Negra)",
         precio: "$4200 xkg",
         pesoEstimado: "6 – 8 kg",
-        imagen: "/images/fiambres/Etiqueta-Negra.png",
+        imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300314/Etiqueta-Roja_rguwpx.png",
         alt: "Paleta Fox Etiqueta Negra",
         categoria: "fiambres",
         tipoVenta: "horma"
@@ -83,108 +46,38 @@ const productos = [
         nombre: "Jamon Natural Bajo en Sodio Fox",
         precio: "$5200 xkg",
         pesoEstimado: "8 – 10 kg",
-        imagen: "/images/fiambres/jamon-natural.png",
+        imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300315/jamon-natural_wn9yfm.png",
         alt: "Jamon Natural Fox",
         categoria: "fiambres",
         tipoVenta: "horma"
     },
     {
-        nombre: "Mortadela Bocha Fox",
-        precio: "$3200 xkg",
-        pesoEstimado: "3 – 4 kg",
-        imagen: "/images/fiambres/mortadela.png",
-        alt: "Mortadela Fox",
-        categoria: "fiambres",
-        tipoVenta: "horma"
-    },
-    {
-        nombre: "Matambre de Pollo Fox",
-        precio: "$4100 xkg",
-        pesoEstimado: "1,5 – 2 kg",
-        imagen: "/images/fiambres/matambre-pollo.png",
-        alt: "Matambre de Pollo Fox",
-        categoria: "fiambres",
-        tipoVenta: "horma"
-    },
-    {
-        nombre: "Salamines Fox",
-        precio: "$4200 xkg",
-        pesoEstimado: "0,5 – 1 kg",
-        imagen: "/images/fiambres/salamines-fox.png",
-        alt: "Salamines Fox",
-        categoria: "fiambres",
-        tipoVenta: "horma"
-    },
-    {
         nombre: "Salame Milan Fox",
-        precio: "$3350 xkg",
-        pesoEstimado: "1 – 2 kg",
-        imagen: "/images/fiambres/salame-milan.png",
+        precio: "$15.200 xkg",
+        pesoEstimado: "2.2 – 2.8 kg",
+        imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300317/salame-milan_mzkjsy.png",
         alt: "Salame Milan Fox",
         categoria: "fiambres",
-        tipoVenta: "horma"
-    },
-    {
-        nombre: "Salame Crespon Fox",
-        precio: "$3200 xkg",
-        pesoEstimado: "1 – 2 kg",
-        imagen: "/images/fiambres/salame-crespon.png",
-        alt: "Salame Crespon Fox",
-        categoria: "fiambres",
-        tipoVenta: "horma"
-    },
-    {
-        nombre: "Salchichon c/Jamon Fox",
-        precio: "$4100 xkg",
-        pesoEstimado: "1,5 – 2,5 kg",
-        imagen: "/images/fiambres/salchichon-jamon.png",
-        alt: "Salchichon con Jamon Fox",
-        categoria: "fiambres",
-        tipoVenta: "horma"
-    },
-    {
-        nombre: "Salchichon Primavera Fox",
-        precio: "$4200 xkg",
-        pesoEstimado: "1,5 – 2,5 kg",
-        imagen: "/images/fiambres/salchichon-primavera.png",
-        alt: "Salchichon Primavera Fox",
-        categoria: "fiambres",
-        tipoVenta: "horma"
+        "tipoVenta": "horma"
     },
 
     // ── PICADAS ─────────────────────────────
     {
         nombre: "Tabla de Quesos y Fiambre Para 10 Personas",
-        precio: "$3350",
-        imagen: "/images/picadas/picada-1.png",
+        precio: "$20.000",
+        imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300350/picada-1_z4wovw.png",
         alt: "Tabla para 10 personas",
         categoria: "picadas",
         tipoVenta: "fijo"
     },
     {
-        nombre: "Tabla de Quesos y Fiambre Para 6 Personas",
-        precio: "$3200",
-        imagen: "/images/picadas/picada-2.png",
-        alt: "Tabla para 6 personas",
-        categoria: "picadas",
-        tipoVenta: "fijo"
-    },
-    {
-        nombre: "Tabla de Quesos y Fiambre Para 5 Personas",
-        precio: "$4100",
-        imagen: "/images/picadas/picada-3.png",
-        alt: "Tabla para 5 personas",
-        categoria: "picadas",
-        tipoVenta: "fijo"
-    },
-    {
         nombre: "Tabla de Quesos y Fiambre Para 8 Personas",
-        precio: "$4200",
-        imagen: "/images/picadas/picada-4.png",
+        precio: "$18.000",
+        imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300352/picada-4_eqpu31.png",
         alt: "Tabla para 8 personas",
         categoria: "picadas",
         tipoVenta: "fijo"
-    },
+    }
 ];
 
 /*=============================================
@@ -202,8 +95,8 @@ function renderDestacados() {
         producto.nombre === "Jamon Natural Bajo en Sodio Fox" ||
         producto.nombre === "Paleta Fox (Etiqueta Negra)" ||
         producto.nombre === "Salame Milan Fox" ||
-        producto.nombre === "Salchichon Primavera Fox" ||
-        producto.nombre === "Tabla de Quesos y Fiambre Para 5 Personas" ||
+        producto.nombre === "Pategrast Melincue" ||
+        producto.nombre === "Tabla de Quesos y Fiambre Para 10 Personas" ||
         producto.nombre === "Tabla de Quesos y Fiambre Para 8 Personas"
     );
 

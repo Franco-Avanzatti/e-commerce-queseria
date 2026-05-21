@@ -3,7 +3,7 @@
         "nombre": "Cremoso Javifer por Horma",
         "precio": "$7.000 xkg",
         "pesoEstimado": "4 – 4.5 kg",
-        "imagen": "/images/quesos/2.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300403/2_ajacm4.png",
         "alt": "Cremoso Javifer",
         "categoria": "quesos",
         "tipoVenta": "horma"
@@ -12,7 +12,7 @@
         "nombre": "Cremoso Punta del Agua por Horma",
         "precio": "$9.000 xkg",
         "pesoEstimado": "3.8 – 4.5 kg",
-        "imagen": "/images/quesos/3.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300402/3_iwviux.png",
         "alt": "Cremoso Punta del Agua",
         "categoria": "quesos",
         "tipoVenta": "horma"
@@ -21,7 +21,7 @@
         "nombre": "Barra Javifer por Horma",
         "precio": "$9.000 xkg",
         "pesoEstimado": "4 – 5 kg",
-        "imagen": "/images/quesos/1.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302698/quesosduros-7_zo0zcz.png",
         "alt": "Barra Javifer",
         "categoria": "quesos",
         "tipoVenta": "horma"
@@ -30,16 +30,124 @@
         "nombre": "Muzzarella Javifer por Horma",
         "precio": "$8.200 xkg",
         "pesoEstimado": "4 – 4.8 kg",
-        "imagen": "/images/quesos/4.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302696/quesosduros-8_gfxdv4.png",
         "alt": "Muzzarella Javifer",
         "categoria": "quesos",
         "tipoVenta": "horma"
     },
     {
+        "nombre": "Muzarella Goyeneche(cilindro) por Horma",
+        "precio": "$7.900 xkg",
+        "pesoEstimado": "4 – 5 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300404/goyeneche_weln7l.png",
+        "alt": "Muzzarella Goyeneche",
+        "categoria": "quesos",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Muzarella Goyeneche(plancha) por Horma",
+        "precio": "$7.900 xkg",
+        "pesoEstimado": "10 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302698/quesosduros-9_syikqi.png",
+        "alt": "Muzzarella Goyeneche",
+        "categoria": "quesos",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Provoleta Javifer",
+        "precio": "$15.000 xkg",
+        "pesoEstimado": "4 – 4.5  kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302695/quesosduros-2_ke4ebq.png",
+        "alt": "Provoleta Javifer",
+        "categoria": "quesos",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Sardo Javifer",
+        "precio": "$10.900 xkg",
+        "pesoEstimado": "2.7 – 3 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779383312/quesosduros-10_xd6iej.png",
+        "alt": "Sardo Javifer",
+        "categoria": "quesos",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Sardo Javifer `Estacionado`",
+        "precio": "$15.900 xkg",
+        "pesoEstimado": "3.5 – 4 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302695/quesosduros-4_a1ykvk.png",
+        "alt": "Sardo Javifer `Estacionado`",
+        "categoria": "quesos",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Reggianito Melincue",
+        "precio": "$16.000 xkg",
+        "pesoEstimado": "7 – 7.3 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302693/quesosduros-1_co5uj2.png",
+        "alt": "Reggianito Melincue",
+        "categoria": "quesos",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Provolone Javifer",
+        "precio": "$16.800 xkg",
+        "pesoEstimado": "4.5 – 5 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302694/quesosduros-5_ggfieu.png",
+        "alt": "Provolone Javifer",
+        "categoria": "quesos",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Gruyere Javifer",
+        "precio": "$16.300 xkg",
+        "pesoEstimado": "9 – 10 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779383613/quesosduros-11_rkrdxa.png",
+        "alt": "Gruyere Javifer",
+        "categoria": "quesos",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Fontina Javifer",
+        "precio": "$15.400 xkg",
+        "pesoEstimado": "9 – 10 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302695/quesosduros-6_ckzkdd.png",
+        "alt": "Fontina Javifer",
+        "categoria": "quesos",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Pategrast Melincue",
+        "precio": "$15.200 xkg",
+        "pesoEstimado": "4 – 4.5 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779303045/copy_of_quesosduros-3_qogp3s.png",
+        "alt": "Pategrast Melincue",
+        "categoria": "quesos",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Cheddar Pouch Tonadita",
+        "precio": "$28.000 xkg",
+        "pesoEstimado": "3 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779382699/quesocheddar-1_qtuwxb.png",
+        "alt": "Cheddar Pouch Tonadita",
+        "categoria": "quesos",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Cheddar Fetas Tonadita",
+        "precio": "$28.000 c/u 140 fetas",
+        "pesoEstimado": "1,7 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302692/quesocheddar-2_nligbu.png",
+        "alt": "Cheddar Fetas Tonadita",
+        "categoria": "quesos",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Paleta Fox Sanguchera(Etiqueta Azul)",
         "precio": "$5.400 xkg",
         "pesoEstimado": "4.8 – 5.3 kg",
-        "imagen": "/images/fiambres/Etiqueta-Azul.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300313/Etiqueta-Azul_ymnocn.png",
         "alt": "Paleta Fox Etiqueta Azul",
         "categoria": "fiambres",
         "tipoVenta": "horma"
@@ -48,7 +156,7 @@
         "nombre": "Paleta Fox (Etiqueta Amarilla)",
         "precio": "$6.400 xkg",
         "pesoEstimado": "5 – 5.6 kg",
-        "imagen": "/images/fiambres/Etiqueta-Amarilla.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300312/Etiqueta-Amarilla_acdrcs.png",
         "alt": "Paleta Fox Etiqueta Amarilla",
         "categoria": "fiambres",
         "tipoVenta": "horma"
@@ -57,8 +165,17 @@
         "nombre": "Paleta Fox (Etiqueta Roja)",
         "precio": "$8.100 xkg",
         "pesoEstimado": "4.8 – 5.2 kg",
-        "imagen": "/images/fiambres/Etiqueta-Roja.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300314/Etiqueta-Roja_rguwpx.png",
         "alt": "Paleta Fox Etiqueta Roja",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Paleta Fox Horma Chica (Etiqueta Negra)",
+        "precio": "$8.600 xkg",
+        "pesoEstimado": "3.4 – 3.8 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779389334/fiambre-1_fq9bwo.png",
+        "alt": "Paleta Fox Horma Chica Etiqueta Negra",
         "categoria": "fiambres",
         "tipoVenta": "horma"
     },
@@ -66,8 +183,17 @@
         "nombre": "Paleta Fox (Etiqueta Negra)",
         "precio": "$8.600 xkg",
         "pesoEstimado": "4.8 – 5.2 kg",
-        "imagen": "/images/fiambres/Etiqueta-Negra.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300313/Etiqueta-Negra_ittv82.png",
         "alt": "Paleta Fox Etiqueta Negra",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Jamon Cocìdo Fox",
+        "precio": "$12.500 xkg",
+        "pesoEstimado": "5.2 – 5.6 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779390746/jamon_javujn.png",
+        "alt": "Jamon Cocìdo Fox",
         "categoria": "fiambres",
         "tipoVenta": "horma"
     },
@@ -75,8 +201,71 @@
         "nombre": "Jamon Natural Bajo en Sodio Fox",
         "precio": "$14.500 xkg",
         "pesoEstimado": "4.5 – 4.8 kg",
-        "imagen": "/images/fiambres/jamon-natural.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300315/jamon-natural_wn9yfm.png",
         "alt": "Jamon Natural Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Lomo Ahumado Fox",
+        "precio": "$15.300 xkg",
+        "pesoEstimado": "2 – 2.2 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779390228/ChatGPT_Image_21_may_2026_04_00_13_p.m._n63bkf.png",
+        "alt": "Lomo Ahumado Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Lomo Horneado c/ Hierbas Fox",
+        "precio": "$20.200 xkg",
+        "pesoEstimado": "1.5 – 1.8 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779390228/Lomo_horneado_de_cer_aza3r7.png",
+        "alt": "Lomo Horneado c/ Hierbas Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Pernil de Cerdo Fox",
+        "precio": "$24.800 xkg",
+        "pesoEstimado": "2 – 2.5 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779389900/ChatGPT_Image_21_may_2026_03_54_19_p.m._xbchau.png",
+        "alt": "Pernil de Cerdo Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Jamon Crudo Fox",
+        "precio": "$39.200 xkg",
+        "pesoEstimado": "2 – 2.5 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300316/jamon-crudo_b1ua8u.png",
+        "alt": "Jamon Crudo Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Bondiola Fox",
+        "precio": "$29.000 xkg",
+        "pesoEstimado": "1.2 – 1.4 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779389337/fiambrd-4_trqrzm.png",
+        "alt": "Bondiola Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Panceta Ahumada Fox",
+        "precio": "$21.800 xkg",
+        "pesoEstimado": "1.2 – 1.5 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779389901/ChatGPT_Image_21_may_2026_03_57_30_p.m._dmibmd.png",
+        "alt": "Panceta Ahumada Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Panceta Salada Fox",
+        "precio": "$21.800 xkg",
+        "pesoEstimado": "1.2 – 1.4 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779390745/Panceta_salada_libre_bxx8ye.png",
+        "alt": "Panceta Salada Fox",
         "categoria": "fiambres",
         "tipoVenta": "horma"
     },
@@ -84,26 +273,62 @@
         "nombre": "Mortadela Bocha Fox",
         "precio": "$9.800 xkg",
         "pesoEstimado": "3.5 – 4 kg",
-        "imagen": "/images/fiambres/mortadela.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300316/mortadela_ygjxsy.png",
         "alt": "Mortadela Fox",
         "categoria": "fiambres",
         "tipoVenta": "horma"
     },
     {
+        "nombre": "Mortadela Calchaqui",
+        "precio": "$9.400 xkg",
+        "pesoEstimado": "5.5 – 6 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779390228/morta_eri8co.png",
+        "alt": "Mortadela Calchaqui",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Mortadela Mini Paladini",
+        "precio": "$5.300 c/u",
+        "pesoEstimado": "300g",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779391008/Mortadela_mini_Palad_qjqo6j.png",
+        "alt": "Mortadela Mini Paladini",
+        "categoria": "fiambres",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Matambre de Pollo Fox",
         "precio": "$15.200 xkg",
         "pesoEstimado": "1,5 – 2 kg",
-        "imagen": "/images/fiambres/matambre-pollo.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300316/matambre-pollo_sd4xfh.png",
         "alt": "Matambre de Pollo Fox",
         "categoria": "fiambres",
         "tipoVenta": "horma"
     },
     {
-        "nombre": "Salamines Fox",
+        "nombre": "Salamines Fox Picado Fino/Grueso",
         "precio": "$16.700 xkg",
         "pesoEstimado": "Tira por 4 unidades, 0,8 – 1 kg",
-        "imagen": "/images/fiambres/salamines-fox.png",
-        "alt": "Salamines Fox",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300318/salamines-fox_z2iumz.png",
+        "alt": "Salamines Fox Picado Fino/Grueso",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Longaniza Calabresa Fox",
+        "precio": "$15.600 xkg",
+        "pesoEstimado": "0,7 – 0.8 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779391007/Longaniza_tipo_Texan_j7k1vf.png",
+        "alt": "Longaniza Calabresa Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Chorizo Colorado tipo Candelario Fox",
+        "precio": "$17.500 xkg",
+        "pesoEstimado": "Tira por 4 unidades, 0,8 – 1 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779389335/fiambre-2_kxyaej.png",
+        "alt": "Chorizo Colorado tipo Candelario Fox",
         "categoria": "fiambres",
         "tipoVenta": "horma"
     },
@@ -111,7 +336,7 @@
         "nombre": "Salame Milan Fox",
         "precio": "$15.200 xkg",
         "pesoEstimado": "2.2 – 2.8 kg",
-        "imagen": "/images/fiambres/salame-milan.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300317/salame-milan_mzkjsy.png",
         "alt": "Salame Milan Fox",
         "categoria": "fiambres",
         "tipoVenta": "horma"
@@ -120,8 +345,17 @@
         "nombre": "Salame Crespon Fox",
         "precio": "$15.200 xkg",
         "pesoEstimado": "2.2 – 2.8 kg",
-        "imagen": "/images/fiambres/salame-crespon.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300317/salame-crespon_ih9drf.png",
         "alt": "Salame Crespon Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Queso de Cerdo Fox",
+        "precio": "$6.400 xkg",
+        "pesoEstimado": "2,5 – 3 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779389337/fiambre-3_jqoaum.png",
+        "alt": "Queso de Cerdo Fox",
         "categoria": "fiambres",
         "tipoVenta": "horma"
     },
@@ -129,7 +363,7 @@
         "nombre": "Salchichon c/Jamon Fox",
         "precio": "$6.400 xkg",
         "pesoEstimado": "2.5 – 3 kg",
-        "imagen": "/images/fiambres/salchichon-jamon.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300319/salchichon-jamon_liu8sb.png",
         "alt": "Salchichon con Jamon Fox",
         "categoria": "fiambres",
         "tipoVenta": "horma"
@@ -138,7 +372,7 @@
         "nombre": "Salchichon Primavera Fox",
         "precio": "$6.400 xkg",
         "pesoEstimado": "2,5 – 3 kg",
-        "imagen": "/images/fiambres/salchichon-primavera.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300319/salchichon-primavera_cnjz5b.png",
         "alt": "Salchichon Primavera Fox",
         "categoria": "fiambres",
         "tipoVenta": "horma"
@@ -146,7 +380,7 @@
     {
         "nombre": "Tabla de Quesos y Fiambre Para 10 Personas",
         "precio": "$20.000",
-        "imagen": "/images/picadas/picada-1.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300350/picada-1_z4wovw.png",
         "alt": "Tabla para 10 personas",
         "categoria": "picadas",
         "tipoVenta": "fijo"
@@ -154,7 +388,7 @@
     {
         "nombre": "Tabla de Quesos y Fiambre Para 6 Personas",
         "precio": "$15.000",
-        "imagen": "/images/picadas/picada-2.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300351/picada-2_pmhi5l.png",
         "alt": "Tabla para 6 personas",
         "categoria": "picadas",
         "tipoVenta": "fijo"
@@ -162,7 +396,7 @@
     {
         "nombre": "Tabla de Quesos y Fiambre Para 5 Personas",
         "precio": "$12.000",
-        "imagen": "/images/picadas/picada-3.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300351/picada-3_r6dlcn.png",
         "alt": "Tabla para 5 personas",
         "categoria": "picadas",
         "tipoVenta": "fijo"
@@ -170,8 +404,16 @@
     {
         "nombre": "Tabla de Quesos y Fiambre Para 8 Personas",
         "precio": "$18.000",
-        "imagen": "/images/picadas/picada-4.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300352/picada-4_eqpu31.png",
         "alt": "Tabla para 8 personas",
+        "categoria": "picadas",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Grasa Vacuna",
+        "precio": "$1.800",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779383312/grasa_i5wmqm.png",
+        "alt": "Grasa Vacuna",
         "categoria": "picadas",
         "tipoVenta": "fijo"
     }
