@@ -9,20 +9,25 @@ async function cargarProductos() {
     try {
 
         const response = await fetch('/data/productos.json');
-
         productos = await response.json();
 
         renderProductos('quesos');
         renderProductos('fiambres');
         renderProductos('picadas');
+        renderProductos('almacen');
+
+        // ── Scroll al anchor DESPUÉS de renderizar ──
+        if (window.location.hash) {
+            const target = document.querySelector(window.location.hash);
+            if (target) {
+                setTimeout(() => {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }, 50);
+            }
+        }
 
     } catch (error) {
-
-        console.error(
-            'Error cargando productos:',
-            error
-        );
-
+        console.error('Error cargando productos:', error);
     }
 
 }
@@ -37,7 +42,8 @@ const productosRenderizados = {
 
     quesos: 0,
     fiambres: 0,
-    picadas: 0
+    picadas: 0,
+    almacen: 0
 
 };
 
@@ -103,6 +109,17 @@ function crearCardProducto(producto) {
         `
         : '';
 
+    // ── Contenido extra para almacén ───────
+    const infoAlmacen = producto.categoria === 'almacen'
+        ? `
+            <p class="card-nota-horma">
+                <i class="bi bi-info-circle"></i>
+
+                x4 unidades. Combinables entre variedades.
+            </p>
+        `
+        : '';
+
     // ── Template general reutilizable ──────
     div.innerHTML = `
         <div class="card h-100 position-relative">
@@ -131,6 +148,7 @@ function crearCardProducto(producto) {
                 </p>
 
                 ${infoHorma}
+                ${infoAlmacen}
 
                 <div class="mt-auto w-100">
 

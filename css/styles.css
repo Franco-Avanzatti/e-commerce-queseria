@@ -11462,6 +11462,13 @@ body {
 /*=============================================
 =                   HEADER                    =
 =============================================*/
+#quesos,
+#fiambres,
+#picadas,
+#almacen {
+  scroll-margin-top: 181px;
+}
+
 .logo {
   position: absolute;
   left: 50%;

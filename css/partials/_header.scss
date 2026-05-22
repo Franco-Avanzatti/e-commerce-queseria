@@ -1,36 +1,44 @@
 /*=============================================
 =                   HEADER                    =
 =============================================*/
-.logo {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-
-  img {
-    max-height: 250px;
-    max-width: 100%;
-    width: auto;
-
-    @media (max-width: 991px) {
-      max-height: 150px;
-    }
-  }
+#quesos,
+#fiambres,
+#picadas,
+#almacen {
+    scroll-margin-top: 181px;
 }
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+        max-height: 250px;
+        max-width: 100%;
+        width: auto;
+
+        @media (max-width: 991px) {
+            max-height: 150px;
+        }
+    }
+}
+
 .header-amarillo {
-  background-color: #d9b300;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-color: #d9b300;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-amarillo h6 {
-  color: $black-carbon;
-  margin: 0;
-  padding: 0;
-  line-height: 28px;
-  font-size: 12px;
-  font-weight: 600;
+    color: $black-carbon;
+    margin: 0;
+    padding: 0;
+    line-height: 28px;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .sticky {
@@ -47,15 +55,16 @@
         justify-content: space-between;
         border-bottom: 2px solid $black-carbon;
         position: relative;
-        min-height: 80px; 
+        min-height: 80px;
 
         @media (min-width: 992px) {
-        min-height: 125px;
-    }
+            min-height: 125px;
+        }
 
         h1 {
             color: $white;
         }
+
         .navbar-toggler {
             position: absolute;
             left: 1rem;

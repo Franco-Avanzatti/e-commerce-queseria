@@ -180,6 +180,15 @@
         "tipoVenta": "horma"
     },
     {
+        "nombre": "Paleta Fox Horma Intermedia (Etiqueta Negra)",
+        "precio": "$8.600 xkg",
+        "pesoEstimado": "4.8 – 5.2 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474603/ChatGPT_Image_22_may_2026_03_12_12_p.m._ti0ky3.png",
+        "alt": "Paleta Fox Horma Intermedia Etiqueta Negra",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
         "nombre": "Paleta Fox (Etiqueta Negra)",
         "precio": "$8.600 xkg",
         "pesoEstimado": "4.8 – 5.2 kg",
@@ -306,6 +315,15 @@
         "tipoVenta": "horma"
     },
     {
+        "nombre": "Matambre Vacuno Fox",
+        "precio": "$21.100 xkg",
+        "pesoEstimado": "1,5 – 2 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474605/ChatGPT_Image_22_may_2026_03_15_22_p.m._lplfek.png",
+        "alt": "Matambre Vacuno Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
         "nombre": "Salamines Fox Picado Fino/Grueso",
         "precio": "$16.700 xkg",
         "pesoEstimado": "Tira por 4 unidades, 0,8 – 1 kg",
@@ -329,6 +347,15 @@
         "pesoEstimado": "Tira por 4 unidades, 0,8 – 1 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779389335/fiambre-2_kxyaej.png",
         "alt": "Chorizo Colorado tipo Candelario Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Salame Milan 201",
+        "precio": "$10.700 xkg",
+        "pesoEstimado": "2 – 2.3 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474599/ChatGPT_Image_22_may_2026_03_18_12_p.m._hxy2rp.png",
+        "alt": "Salame Milan 201",
         "categoria": "fiambres",
         "tipoVenta": "horma"
     },
@@ -410,11 +437,83 @@
         "tipoVenta": "fijo"
     },
     {
+        "nombre": "Ailu Tap x docena (criollas/hojaldres)",
+        "precio": "$1.450",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779472610/prod-1_q8xigb.png",
+        "alt": "Ailu Tap x docena (criollas/hojaldres)",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Ailu Tap x docena Rotiseras (criollas)",
+        "precio": "$1.750",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779472610/prod-1_q8xigb.png",
+        "alt": "Ailu Tap x docena Rotiseras (criollas)",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Ailu Tap x 5 docenas Rotiseras (criollas/hojaldres)",
+        "precio": "$7.800",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779472641/prod-2_dfnbec.png",
+        "alt": "Ailu Tap x 5 docenas Rotiseras (criollas/hojaldres)",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Ailu Tap Pascualina (criollas/hojaldres)",
+        "precio": "$1.850",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474598/ChatGPT_Image_22_may_2026_03_09_02_p.m._a47b4u.png",
+        "alt": "Ailu Tap Pascualina (criollas/hojaldres)",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Ailu Tap Pascualina Individual x 12 de 24cm (criollas/hojaldres)",
+        "precio": "$5.500",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779472750/prod-3_jq0ws6.png",
+        "alt": "Ailu Tap Pascualina Individual x 12 de 24cm (criollas/hojaldres)",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Ailu Tap Pastelitos x 1docena (criollas)",
+        "precio": "$1.700",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474599/ChatGPT_Image_22_may_2026_03_20_52_p.m._wnevln.png",
+        "alt": "Ailu Tap Pastelitos x 1docena (criollas)",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Ñoquis `El Sol` 1kg",
+        "precio": "$4.100",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474599/22_may_2026_03_23_56_p.m._xwdzol.png",
+        "alt": "Ñoquis `El Sol` 1kg",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Ravioles `El Sol` 1kg",
+        "precio": "$4.100",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474880/ChatGPT_Image_22_may_2026_03_31_06_p.m._kjrpea.png",
+        "alt": "Ravioles `El Sol` 1kg",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Ravioles `El Sol` 500g",
+        "precio": "$3.000",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474604/ChatGPT_Image_22_may_2026_03_28_18_p.m._ignspk.png",
+        "alt": "Sorrentinos `El Sol` 500g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Grasa Vacuna",
         "precio": "$1.800",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779383312/grasa_i5wmqm.png",
         "alt": "Grasa Vacuna",
-        "categoria": "picadas",
+        "categoria": "almacen",
         "tipoVenta": "fijo"
     }
 ]
