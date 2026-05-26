@@ -12622,7 +12622,30 @@ footer .quienes-footer:hover {
   .col {
     margin-bottom: 20px;
   }
-  .card {
-    width: 100%;
+}
+@media (max-width: 768px) {
+  /* mejor spacing mobile */
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  /* cards más cómodas */
+  .row > .col {
+    padding: 6px;
+  }
+  /* botón visible y cómodo */
+  .btn-ver-mas {
+    width: 160px;
+    padding: 10px 0;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: 700;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-title {
+    font-size: 18px;
+    text-align: left;
   }
 }/*# sourceMappingURL=styles.css.map */

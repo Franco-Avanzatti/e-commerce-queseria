@@ -126,6 +126,15 @@
         "tipoVenta": "horma"
     },
     {
+        "nombre": "Queso Crema Milkaut",
+        "precio": "$30.800",
+        "pesoEstimado": "3.5 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779558395/ChatGPT_Image_23_may_2026_02_33_54_p.m._hz1mzf.png",
+        "alt": "Queso Crema Milkaut",
+        "categoria": "quesos",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Cheddar Pouch Tonadita",
         "precio": "$28.000 xkg",
         "pesoEstimado": "3 kg",
@@ -505,6 +514,126 @@
         "precio": "$3.000",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474604/ChatGPT_Image_22_may_2026_03_28_18_p.m._ignspk.png",
         "alt": "Sorrentinos `El Sol` 500g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Yogur Bebible Cremigal 1L",
+        "precio": "$1.500",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779558396/ChatGPT_Image_23_may_2026_02_36_12_p.m._xbs1hl.png",
+        "alt": "Yogur Bebible Cremigal 1L",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Prepizzas x2",
+        "precio": "$2.400",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779809036/ChatGPT_Image_23_may_2026_03_23_55_p.m._amql47.png",
+        "alt": "Prepizzas x2",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Pizzetas x12",
+        "precio": "$2.400",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779809035/ChatGPT_Image_23_may_2026_03_28_47_p.m._w6z3q8.png",
+        "alt": "Pizzetas x12",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Arroz Molto x 1kg",
+        "precio": "$1.100",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779810762/ChatGPT_Image_26_may_2026_12_43_46_p.m._wdiow0.png",
+        "alt": "Arroz Molto x 1kg",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Arroz Ala x 1kg",
+        "precio": "$1.220",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779810765/ChatGPT_Image_26_may_2026_12_46_40_p.m._y0pn1t.png",
+        "alt": "Arroz Ala x 1kg",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Arroz Ala x 500g",
+        "precio": "$720",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779810767/ChatGPT_Image_26_may_2026_12_49_44_p.m._mvciju.png",
+        "alt": "Arroz Ala x 500g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Arroz Cañuelas x 500g",
+        "precio": "$600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779810766/ChatGPT_Image_26_may_2026_12_38_35_p.m._iekpdg.png",
+        "alt": "Arroz Cañuelas x 500g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Lentejas Olinto x 400g",
+        "precio": "$1.350",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779810764/ChatGPT_Image_26_may_2026_12_32_19_p.m._b9g9xq.png",
+        "alt": "Lentejas Olinto x 400g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Polenta Presto Pronta x 500g",
+        "precio": "$1.350",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779810918/ChatGPT_Image_26_may_2026_12_53_15_p.m._fhnjqg.png",
+        "alt": "Polenta Presto Pronta x 500g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Fideos Sol Pampeano Foratti, Spaghetti, Tallarines",
+        "precio": "$850",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812242/ChatGPT_Image_26_may_2026_12_57_24_p.m._vwlgmw.png",
+        "alt": "Fideos Sol Pampeano Foratti, Spaghetti, Tallarines",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Fideos Sol Pampeano tirabuzón, coditos, moñitos, mostachol",
+        "precio": "$750",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812250/ChatGPT_Image_26_may_2026_01_00_18_p.m._rt7dup.png",
+        "alt": "Fideos Sol Pampeano tirabuzón, coditos, moñitos, mostachol",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Mayonesa Natura x 250g",
+        "precio": "$1.600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812244/ChatGPT_Image_26_may_2026_01_03_27_p.m._kx98ov.png",
+        "alt": "Mayonesa Natura x 250g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Jugo rinde x 2L",
+        "precio": "$6.300 los 10 sobres",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812243/ChatGPT_Image_26_may_2026_01_05_55_p.m._psv6on.png",
+        "alt": "Jugo rinde x 2L",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Hamburguesas Barfy x 4 unidades",
+        "precio": "$3.480",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812240/Barfy_hamburguesas_c_jvifeu.png",
+        "alt": "Hamburguesas Barfy x 4 unidades",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+     {
+        "nombre": "Hamburguesas Paty Cancha x 2 unidades",
+        "precio": "$5.800",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812243/paty_w2jtqn.png",
+        "alt": "Hamburguesas Paty Cancha x 2 unidades",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     },
