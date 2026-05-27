@@ -17,6 +17,13 @@ function loadCart() {
 // ── Estado inicial ──────────────────────────
 let cart = loadCart();
 
+// ── Clave única por producto + variedad ─────
+function cartKey(item) {
+    return item.variedadElegida
+        ? `${item.nombre}||${item.variedadElegida}`
+        : item.nombre;
+}
+
 // ── Abrir / cerrar ──────────────────────────
 function openCart() {
     document.querySelector('.cart-overlay').classList.add('active');
@@ -33,8 +40,10 @@ function closeCart() {
 // ── Agregar producto ────────────────────────
 function addToCart(producto) {
 
+    const key = cartKey(producto);
+
     const existing = cart.find(
-        item => item.nombre === producto.nombre
+        item => cartKey(item) === key
     );
 
     if (existing) {
@@ -49,15 +58,15 @@ function addToCart(producto) {
 }
 
 // ── Cambiar cantidad ────────────────────────
-function changeQty(nombre, delta) {
+function changeQty(key, delta) {
 
-    const item = cart.find(i => i.nombre === nombre);
+    const item = cart.find(i => cartKey(i) === key);
     if (!item) return;
 
     item.cantidad += delta;
 
     if (item.cantidad <= 0) {
-        cart = cart.filter(i => i.nombre !== nombre);
+        cart = cart.filter(i => cartKey(i) !== key);
     }
 
     saveCart();
@@ -66,8 +75,8 @@ function changeQty(nombre, delta) {
 }
 
 // ── Eliminar producto ───────────────────────
-function removeItem(nombre) {
-    cart = cart.filter(item => item.nombre !== nombre);
+function removeItem(key) {
+    cart = cart.filter(item => cartKey(item) !== key);
     saveCart();
     renderCart();
     updateCartBadge();
@@ -112,26 +121,33 @@ function updateCartBadge() {
 // ── Helper: HTML de un ítem del carrito ─────
 function itemHTML(item) {
 
-    const nombreEsc = item.nombre.replace(/'/g, "\\'");
+    const key = cartKey(item).replace(/'/g, "\\'");
 
     const precioLabel = item.tipoVenta === 'horma'
         ? `<span class="cart-item-xkg">${item.precio}</span>`
         : `<span>${item.precio}</span>`;
+
+    const variedadLabel = item.variedadElegida
+        ? `<span class="cart-item-variedad">
+               <i class="bi bi-tag"></i> ${item.variedadElegida}
+           </span>`
+        : '';
 
     return `
         <div class="cart-item">
             <img src="${item.imagen}" alt="${item.alt}">
             <div class="cart-item-info">
                 <p>${item.nombre}</p>
+                ${variedadLabel}
                 ${precioLabel}
             </div>
             <div class="cart-item-controls">
-                <button onclick="changeQty('${nombreEsc}', -1)">−</button>
+                <button onclick="changeQty('${key}', -1)">−</button>
                 <span>${item.cantidad}</span>
-                <button onclick="changeQty('${nombreEsc}', 1)">+</button>
+                <button onclick="changeQty('${key}', 1)">+</button>
             </div>
             <div class="cart-remove">
-                <i class="bi bi-x" onclick="removeItem('${nombreEsc}')"></i>
+                <i class="bi bi-x" onclick="removeItem('${key}')"></i>
             </div>
         </div>
     `;
@@ -234,7 +250,6 @@ function renderCart() {
     }
 }
 
-
 // ── Enviar a WhatsApp ───────────────────────
 function sendToWhatsApp() {
 
@@ -259,10 +274,8 @@ function sendToWhatsApp() {
         mensaje += '_(precio sujeto al pesaje final)_\n\n';
 
         hormas.forEach(item => {
-
             mensaje += `🔸 *${item.nombre}*\n`;
             mensaje += `📦 Cantidad: ${item.cantidad}\n`;
-
         });
 
         mensaje += `📊 *Total hormas:* ${totalUnidades} unidades\n`;
@@ -282,7 +295,7 @@ function sendToWhatsApp() {
 
             totalFijos += subtotal;
 
-            mensaje += `🔸 *${item.nombre}*\n`;
+            mensaje += `🔸 *${item.nombre}*${item.variedadElegida ? ` — ${item.variedadElegida}` : ''}\n`;
             mensaje += `📦 Cantidad: ${item.cantidad}\n`;
             mensaje += `💵 Subtotal: $${subtotal.toLocaleString('es-AR')}\n\n`;
 

@@ -220,6 +220,48 @@
         font-style: italic;
         margin-bottom: 8px;
     }
+
+    .card-variedades {
+        width: 100%;
+        margin: 4px 0 10px;
+    }
+
+    .card-variedades-label {
+        font-size: 0.72rem;
+        color: $gray-mid;
+        font-style: italic;
+        margin-bottom: 6px;
+    }
+
+    .card-variedades-pills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .pill-variedad {
+        padding: 3px 10px;
+        border-radius: 999px;
+        border: 1.5px solid $gray-mid;
+        background: transparent;
+        font-size: 0.75rem;
+        cursor: pointer;
+        color: $off-white;
+        transition: all 0.2s ease;
+
+        &:hover {
+            border-color: $main-color;
+            color: $main-color;
+        }
+
+        &.activa {
+            background-color: $main-color;
+            border-color: $main-color;
+            color: $black-absolute;
+            font-weight: 600;
+        }
+    }
 }
 
 .badge-nuevo {

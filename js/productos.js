@@ -85,7 +85,6 @@ function limpiarCategoria(categoria) {
 function crearCardProducto(producto) {
 
     const div = document.createElement('div');
-
     div.className = 'col';
 
     // ── Contenido extra para hormas ────────
@@ -93,86 +92,97 @@ function crearCardProducto(producto) {
         ? `
             <p class="card-peso">
                 <i class="bi bi-box-seam"></i>
-
-                Peso estimado:
-                <strong>
-                    ${producto.pesoEstimado}
-                </strong>
+                Peso estimado: <strong>${producto.pesoEstimado}</strong>
             </p>
-
             <p class="card-nota-horma">
                 <i class="bi bi-info-circle"></i>
-
-                El precio final se determina
-                al momento del pesaje.
+                El precio final se determina al momento del pesaje.
             </p>
         `
         : '';
 
-    // ── Contenido extra para almacén ───────
+    // ── Selector de variedades para almacén ─
+    const tieneVariedades =
+        producto.categoria === 'almacen' &&
+        Array.isArray(producto.variedades) &&
+        producto.variedades.length > 0;
+
     const infoAlmacen = producto.categoria === 'almacen'
         ? `
             <p class="card-nota-horma">
                 <i class="bi bi-info-circle"></i>
-
                 x4 unidades. Combinables entre variedades.
             </p>
+            ${tieneVariedades ? `
+            <div class="card-variedades">
+                <p class="card-variedades-label">
+                    <i class="bi bi-funnel"></i> Elegí tu variedad:
+                </p>
+                <div class="card-variedades-pills">
+                    ${producto.variedades.map((v, i) => `
+                        <button
+                            type="button"
+                            class="pill-variedad ${i === 0 ? 'activa' : ''}"
+                            data-variedad="${v}"
+                        >${v}</button>
+                    `).join('')}
+                </div>
+            </div>
+            ` : ''}
         `
         : '';
 
-    // ── Template general reutilizable ──────
     div.innerHTML = `
         <div class="card h-100 position-relative">
-
-            <img 
-                src="${producto.imagen}" 
-                class="card-img-top" 
+            <img
+                src="${producto.imagen}"
+                class="card-img-top"
                 alt="${producto.alt}"
                 loading="lazy"
             >
-
             <div class="card-body d-flex flex-column">
-
-                <span class="card-tag">
-                    ${producto.categoria}
-                </span>
-
-                <h6 class="card-title">
-                    ${producto.nombre}
-                </h6>
-
+                <span class="card-tag">${producto.categoria}</span>
+                <h6 class="card-title">${producto.nombre}</h6>
                 <div class="card-divider"></div>
-
-                <p class="card-price">
-                    ${producto.precio}
-                </p>
-
+                <p class="card-price">${producto.precio}</p>
                 ${infoHorma}
                 ${infoAlmacen}
-
                 <div class="mt-auto w-100">
-
                     <div class="card-divider"></div>
-
-                    <button class="btn-producto">
-                        Agregar al carrito
-                    </button>
-
+                    <button class="btn-producto">Agregar al carrito</button>
                 </div>
             </div>
         </div>
     `;
 
+    // ── Lógica de pills ────────────────────
+    if (tieneVariedades) {
+        const pills = div.querySelectorAll('.pill-variedad');
+
+        pills.forEach(pill => {
+            pill.addEventListener('click', () => {
+                pills.forEach(p => p.classList.remove('activa'));
+                pill.classList.add('activa');
+            });
+        });
+    }
+
     // ── Evento carrito ─────────────────────
     div.querySelector('.btn-producto')
         .addEventListener('click', () => {
 
-            addToCart(producto);
+            // Si tiene variedades, incluye la seleccionada
+            if (tieneVariedades) {
+                const activa = div.querySelector('.pill-variedad.activa');
+                const variedadElegida = activa ? activa.dataset.variedad : null;
+                addToCart({ ...producto, variedadElegida });
+            } else {
+                addToCart(producto);
+            }
 
         });
 
     return div;
-
 }
 
 /*=============================================

@@ -11771,6 +11771,42 @@ body {
   font-style: italic;
   margin-bottom: 8px;
 }
+.card .card-variedades {
+  width: 100%;
+  margin: 4px 0 10px;
+}
+.card .card-variedades-label {
+  font-size: 0.72rem;
+  color: #5C5C5C;
+  font-style: italic;
+  margin-bottom: 6px;
+}
+.card .card-variedades-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+.card .pill-variedad {
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1.5px solid #5C5C5C;
+  background: transparent;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: #FAF7EE;
+  transition: all 0.2s ease;
+}
+.card .pill-variedad:hover {
+  border-color: #DDB500;
+  color: #DDB500;
+}
+.card .pill-variedad.activa {
+  background-color: #DDB500;
+  border-color: #DDB500;
+  color: #0D0D0D;
+  font-weight: 600;
+}
 
 .badge-nuevo {
   position: absolute;
@@ -11978,6 +12014,13 @@ body {
   font-size: 12px;
   font-weight: 700;
   color: #DDB500;
+}
+.cart-item .cart-item-info .cart-item-variedad {
+  font-size: 0.72rem;
+  color: #DDB500;
+  font-style: italic;
+  display: block;
+  margin-bottom: 2px;
 }
 .cart-item .cart-item-controls {
   display: flex;

@@ -136,16 +136,16 @@
     },
     {
         "nombre": "Cheddar Pouch Tonadita",
-        "precio": "$28.000 xkg",
+        "precio": "$28.000",
         "pesoEstimado": "3 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779382699/quesocheddar-1_qtuwxb.png",
         "alt": "Cheddar Pouch Tonadita",
         "categoria": "quesos",
-        "tipoVenta": "horma"
+        "tipoVenta": "fijo"
     },
     {
-        "nombre": "Cheddar Fetas Tonadita",
-        "precio": "$28.000 c/u 140 fetas",
+        "nombre": "Cheddar Fetas Tonadita(140 fetas)",
+        "precio": "$28.000",
         "pesoEstimado": "1,7 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302692/quesocheddar-2_nligbu.png",
         "alt": "Cheddar Fetas Tonadita",
@@ -307,7 +307,7 @@
     },
     {
         "nombre": "Mortadela Mini Paladini",
-        "precio": "$5.300 c/u",
+        "precio": "$5.300",
         "pesoEstimado": "300g",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779391008/Mortadela_mini_Palad_qjqo6j.png",
         "alt": "Mortadela Mini Paladini",
@@ -451,7 +451,8 @@
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779472610/prod-1_q8xigb.png",
         "alt": "Ailu Tap x docena (criollas/hojaldres)",
         "categoria": "almacen",
-        "tipoVenta": "fijo"
+        "tipoVenta": "fijo",
+        "variedades": ["criollas", "hojaldres"]
     },
     {
         "nombre": "Ailu Tap x docena Rotiseras (criollas)",
@@ -467,6 +468,15 @@
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779472641/prod-2_dfnbec.png",
         "alt": "Ailu Tap x 5 docenas Rotiseras (criollas/hojaldres)",
         "categoria": "almacen",
+        "tipoVenta": "fijo",
+        "variedades": ["criollas", "hojaldres"]
+    },
+    {
+        "nombre": "Ailu Tap x 5 docenas (criollas)",
+        "precio": "$7.800",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779472641/prod-2_dfnbec.png",
+        "alt": "Ailu Tap x 5 docenas (criollas)",
+        "categoria": "almacen",
         "tipoVenta": "fijo"
     },
     {
@@ -475,7 +485,8 @@
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474598/ChatGPT_Image_22_may_2026_03_09_02_p.m._a47b4u.png",
         "alt": "Ailu Tap Pascualina (criollas/hojaldres)",
         "categoria": "almacen",
-        "tipoVenta": "fijo"
+        "tipoVenta": "fijo",
+        "variedades": ["criollas", "hojaldres"]
     },
     {
         "nombre": "Ailu Tap Pascualina Individual x 12 de 24cm (criollas/hojaldres)",
@@ -483,7 +494,8 @@
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779472750/prod-3_jq0ws6.png",
         "alt": "Ailu Tap Pascualina Individual x 12 de 24cm (criollas/hojaldres)",
         "categoria": "almacen",
-        "tipoVenta": "fijo"
+        "tipoVenta": "fijo",
+        "variedades": ["criollas", "hojaldres"]
     },
     {
         "nombre": "Ailu Tap Pastelitos x 1docena (criollas)",
@@ -507,15 +519,17 @@
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474880/ChatGPT_Image_22_may_2026_03_31_06_p.m._kjrpea.png",
         "alt": "Ravioles `El Sol` 1kg",
         "categoria": "almacen",
-        "tipoVenta": "fijo"
+        "tipoVenta": "fijo",
+        "variedades": ["cuatro quesos","espinaca","ricota","calabaza & mozzarella","tomate & mozzarella"]
     },
     {
         "nombre": "Ravioles `El Sol` 500g",
         "precio": "$3.000",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474604/ChatGPT_Image_22_may_2026_03_28_18_p.m._ignspk.png",
-        "alt": "Sorrentinos `El Sol` 500g",
+        "alt": "Ravioles `El Sol` 500g",
         "categoria": "almacen",
-        "tipoVenta": "fijo"
+        "tipoVenta": "fijo",
+        "variedades": ["ravioles","tortelettis","sorrentinos"]
     },
     {
         "nombre": "Yogur Bebible Cremigal 1L",
@@ -523,7 +537,8 @@
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779558396/ChatGPT_Image_23_may_2026_02_36_12_p.m._xbs1hl.png",
         "alt": "Yogur Bebible Cremigal 1L",
         "categoria": "almacen",
-        "tipoVenta": "fijo"
+        "tipoVenta": "fijo",
+        "variedades": ["frutilla","vainilla"]
     },
     {
         "nombre": "Prepizzas x2",
@@ -595,7 +610,8 @@
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812242/ChatGPT_Image_26_may_2026_12_57_24_p.m._vwlgmw.png",
         "alt": "Fideos Sol Pampeano Foratti, Spaghetti, Tallarines",
         "categoria": "almacen",
-        "tipoVenta": "fijo"
+        "tipoVenta": "fijo",
+        "variedades": ["foratti", "spaghetti", "tallarines"]
     },
     {
         "nombre": "Fideos Sol Pampeano tirabuzón, coditos, moñitos, mostachol",
@@ -603,7 +619,8 @@
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812250/ChatGPT_Image_26_may_2026_01_00_18_p.m._rt7dup.png",
         "alt": "Fideos Sol Pampeano tirabuzón, coditos, moñitos, mostachol",
         "categoria": "almacen",
-        "tipoVenta": "fijo"
+        "tipoVenta": "fijo",
+        "variedades": ["tirabuzón", "coditos", "moñitos", "mostachol"]
     },
     {
         "nombre": "Mayonesa Natura x 250g",
@@ -614,12 +631,13 @@
         "tipoVenta": "fijo"
     },
     {
-        "nombre": "Jugo rinde x 2L",
-        "precio": "$6.300 los 10 sobres",
+        "nombre": "Jugo rinde x 2L(10 sobres)",
+        "precio": "$6.300",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812243/ChatGPT_Image_26_may_2026_01_05_55_p.m._psv6on.png",
         "alt": "Jugo rinde x 2L",
         "categoria": "almacen",
-        "tipoVenta": "fijo"
+        "tipoVenta": "fijo",
+        "variedades": ["Naranja", "Limón", "Pomelo", "Durazno", "Manzana"]
     },
     {
         "nombre": "Hamburguesas Barfy x 4 unidades",

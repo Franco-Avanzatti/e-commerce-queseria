@@ -164,6 +164,14 @@
             font-weight: 700;
             color: $main-color;
         }
+
+        .cart-item-variedad {
+            font-size: 0.72rem;
+            color: $main-color;
+            font-style: italic;
+            display: block;
+            margin-bottom: 2px;
+        }
     }
 
     .cart-item-controls {
@@ -233,24 +241,26 @@
     font-size: 0.8rem;
     color: #888;
 }
-.cart-hormas-summary{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    background:$black-carbon;
-    padding:.7rem 1rem;
-    border-radius:8px;
+
+.cart-hormas-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $black-carbon;
+    padding: .7rem 1rem;
+    border-radius: 8px;
 }
 
-.cart-hormas-label{
-    color:$main-color;
-    font-size:13px;
-    font-weight:700;
+.cart-hormas-label {
+    color: $main-color;
+    font-size: 13px;
+    font-weight: 700;
 }
-.cart-hormas-value{
-    color:$white;
-    font-size:14px;
-    font-weight:700;
+
+.cart-hormas-value {
+    color: $white;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 
