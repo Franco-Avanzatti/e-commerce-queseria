@@ -95,10 +95,10 @@ function parsePrecio(precioStr) {
     return Number(precioStr.replace(/[^0-9]/g, ''));
 }
 
-// ── Total (solo productos de precio fijo) ───
+// ── Total (solo productos de precio fijo, excluye picadas) ──
 function getTotal() {
     return cart
-        .filter(item => item.tipoVenta === 'fijo')
+        .filter(item => item.tipoVenta === 'fijo' && item.categoria !== 'picadas')
         .reduce((sum, item) => {
             return sum + parsePrecio(item.precio) * item.cantidad;
         }, 0);
@@ -123,8 +123,8 @@ function itemHTML(item) {
 
     const key = cartKey(item).replace(/'/g, "\\'");
 
-    const precioLabel = item.tipoVenta === 'horma'
-        ? `<span class="cart-item-xkg">${item.precio}</span>`
+    const precioLabel = item.tipoVenta === 'horma' || item.categoria === 'picadas'
+        ? `<span class="cart-item-xkg">A confirmar</span>`
         : `<span>${item.precio}</span>`;
 
     const variedadLabel = item.variedadElegida
@@ -175,9 +175,10 @@ function renderCart() {
 
     cartFooter.style.display = 'flex';
 
-    // ── Separar ítems por tipo de venta ────────────────────────
-    const hormas = cart.filter(i => i.tipoVenta === 'horma');
-    const fijos = cart.filter(i => i.tipoVenta === 'fijo');
+    // ── Separar ítems por tipo ─────────────────────────────────
+    const hormas   = cart.filter(i => i.tipoVenta === 'horma');
+    const picadas  = cart.filter(i => i.categoria === 'picadas');
+    const fijos    = cart.filter(i => i.tipoVenta === 'fijo' && i.categoria !== 'picadas');
 
     let html = '';
 
@@ -198,8 +199,30 @@ function renderCart() {
         `;
     }
 
-    // ── Divisor (solo si hay ambos tipos) ──────────────────────
-    if (hormas.length > 0 && fijos.length > 0) {
+    // ── Divisor ─────────────────────────────────────────────────
+    if (hormas.length > 0 && (picadas.length > 0 || fijos.length > 0)) {
+        html += `<div class="cart-section-divider"></div>`;
+    }
+
+    // ── Sección PICADAS ─────────────────────────────────────────
+    if (picadas.length > 0) {
+        html += `
+            <div class="cart-section-header">
+                <i class="bi bi-grid-1x2"></i>
+                Picadas y Tablas
+            </div>
+        `;
+        html += picadas.map(itemHTML).join('');
+        html += `
+            <p class="cart-horma-nota">
+                <i class="bi bi-info-circle"></i>
+                El precio final se confirma según la selección.
+            </p>
+        `;
+    }
+
+    // ── Divisor ─────────────────────────────────────────────────
+    if (picadas.length > 0 && fijos.length > 0) {
         html += `<div class="cart-section-divider"></div>`;
     }
 
@@ -218,7 +241,7 @@ function renderCart() {
 
     // ── Total hormas en footer ──────────────────────────────────
     const hormasSummary = document.querySelector('.cart-hormas-summary');
-    const hormasLabel = document.querySelector('.cart-hormas-label');
+    const hormasLabel   = document.querySelector('.cart-hormas-label');
 
     if (hormasSummary && hormasLabel) {
         if (hormas.length > 0) {
@@ -244,8 +267,9 @@ function renderCart() {
     // ── Etiqueta del total ──────────────────────────────────────
     const totalLabel = document.querySelector('.cart-total-label');
     if (totalLabel) {
-        totalLabel.textContent = hormas.length > 0 && fijos.length > 0
-            ? 'Total (sin hormas):'
+        const sinPrecioFijo = hormas.length > 0 || picadas.length > 0;
+        totalLabel.textContent = sinPrecioFijo && fijos.length > 0
+            ? 'Total (productos fijos):'
             : 'Total:';
     }
 }
@@ -255,8 +279,9 @@ function sendToWhatsApp() {
 
     if (cart.length === 0) return;
 
-    const hormas = cart.filter(i => i.tipoVenta === 'horma');
-    const fijos = cart.filter(i => i.tipoVenta === 'fijo');
+    const hormas  = cart.filter(i => i.tipoVenta === 'horma');
+    const picadas = cart.filter(i => i.categoria === 'picadas');
+    const fijos   = cart.filter(i => i.tipoVenta === 'fijo' && i.categoria !== 'picadas');
 
     let mensaje = '🧀 *Pedido — Quesería del Campo*\n\n';
 
@@ -280,6 +305,20 @@ function sendToWhatsApp() {
 
         mensaje += `📊 *Total hormas:* ${totalUnidades} unidades\n`;
         mensaje += `⚖️ *Importe:* A confirmar al pesar\n\n`;
+    }
+
+    // ── PICADAS ──────────────────────────────
+    if (picadas.length > 0) {
+
+        mensaje += '───────────────\n';
+        mensaje += '🍽️ *PICADAS Y TABLAS*\n';
+        mensaje += '_(precio a confirmar según armado)_\n\n';
+
+        picadas.forEach(item => {
+            mensaje += `🔸 *${item.nombre}*\n`;
+            mensaje += `📦 Cantidad: ${item.cantidad}\n`;
+            mensaje += `💵 Precio: A confirmar\n\n`;
+        });
     }
 
     // ── PRODUCTOS FIJOS ─────────────────────
@@ -310,6 +349,10 @@ function sendToWhatsApp() {
 
     if (hormas.length > 0) {
         mensaje += '⚖️ Hormas: A confirmar\n';
+    }
+
+    if (picadas.length > 0) {
+        mensaje += '🍽️ Picadas: A confirmar\n';
     }
 
     if (fijos.length > 0) {

@@ -101,6 +101,16 @@ function crearCardProducto(producto) {
         `
         : '';
 
+    // ── Contenido extra para picadas ───────
+    const infoPicada = producto.categoria === 'picadas'
+        ? `
+            <p class="card-nota-horma">
+                <i class="bi bi-info-circle"></i>
+                El precio se confirma según la selección.
+            </p>
+        `
+        : '';
+
     // ── Selector de variedades para almacén ─
     const tieneVariedades =
         producto.categoria === 'almacen' &&
@@ -144,8 +154,13 @@ function crearCardProducto(producto) {
                 <span class="card-tag">${producto.categoria}</span>
                 <h6 class="card-title">${producto.nombre}</h6>
                 <div class="card-divider"></div>
-                <p class="card-price">${producto.precio}</p>
+                <p class="card-price">${
+                    producto.categoria === 'picadas'
+                        ? 'A confirmar'
+                        : producto.precio
+                }</p>
                 ${infoHorma}
+                ${infoPicada}
                 ${infoAlmacen}
                 <div class="mt-auto w-100">
                     <div class="card-divider"></div>

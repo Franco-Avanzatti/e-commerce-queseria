@@ -416,7 +416,7 @@
     {
         "nombre": "Tabla de Quesos y Fiambre Para 10 Personas",
         "precio": "$20.000",
-        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300350/picada-1_z4wovw.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780007287/Picada_gourmet_argen_bswi54.png",
         "alt": "Tabla para 10 personas",
         "categoria": "picadas",
         "tipoVenta": "fijo"
@@ -424,7 +424,7 @@
     {
         "nombre": "Tabla de Quesos y Fiambre Para 6 Personas",
         "precio": "$15.000",
-        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300351/picada-2_pmhi5l.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780007287/Picada_gourmet_argen_bswi54.png",
         "alt": "Tabla para 6 personas",
         "categoria": "picadas",
         "tipoVenta": "fijo"
@@ -432,7 +432,7 @@
     {
         "nombre": "Tabla de Quesos y Fiambre Para 5 Personas",
         "precio": "$12.000",
-        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300351/picada-3_r6dlcn.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780007287/Picada_gourmet_argen_bswi54.png",
         "alt": "Tabla para 5 personas",
         "categoria": "picadas",
         "tipoVenta": "fijo"
@@ -440,7 +440,7 @@
     {
         "nombre": "Tabla de Quesos y Fiambre Para 8 Personas",
         "precio": "$18.000",
-        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300352/picada-4_eqpu31.png",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780007287/Picada_gourmet_argen_bswi54.png",
         "alt": "Tabla para 8 personas",
         "categoria": "picadas",
         "tipoVenta": "fijo"

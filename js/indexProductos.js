@@ -63,21 +63,23 @@ const productos = [
 
     // ── PICADAS ─────────────────────────────
     {
-        nombre: "Tabla de Quesos y Fiambre Para 10 Personas",
-        precio: "$20.000",
-        imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300350/picada-1_z4wovw.png",
-        alt: "Tabla para 10 personas",
-        categoria: "picadas",
-        tipoVenta: "fijo"
+        "nombre": "Panceta Ahumada Fox",
+        "precio": "$21.800 xkg",
+        "pesoEstimado": "1.2 – 1.5 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779389901/ChatGPT_Image_21_may_2026_03_57_30_p.m._dmibmd.png",
+        "alt": "Panceta Ahumada Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
     },
     {
-        nombre: "Tabla de Quesos y Fiambre Para 8 Personas",
-        precio: "$18.000",
-        imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300352/picada-4_eqpu31.png",
-        alt: "Tabla para 8 personas",
-        categoria: "picadas",
-        tipoVenta: "fijo"
-    }
+        "nombre": "Panceta Salada Fox",
+        "precio": "$21.800 xkg",
+        "pesoEstimado": "1.2 – 1.4 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779390745/Panceta_salada_libre_bxx8ye.png",
+        "alt": "Panceta Salada Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
 ];
 
 /*=============================================
@@ -96,8 +98,8 @@ function renderDestacados() {
         producto.nombre === "Paleta Fox (Etiqueta Negra)" ||
         producto.nombre === "Salame Milan Fox" ||
         producto.nombre === "Pategrast Melincue" ||
-        producto.nombre === "Tabla de Quesos y Fiambre Para 10 Personas" ||
-        producto.nombre === "Tabla de Quesos y Fiambre Para 8 Personas"
+        producto.nombre === "Panceta Ahumada Fox" ||
+        producto.nombre === "Panceta Salada Fox"
     );
 
     destacados.forEach((producto, index) => {
