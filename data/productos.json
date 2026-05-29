@@ -153,6 +153,15 @@
         "tipoVenta": "fijo"
     },
     {
+        "nombre": "Cheddar 'La Serenisima'",
+        "precio": "$16.500",
+        "pesoEstimado": "2 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074386/ChatGPT_Image_29_may_2026_02_00_08_p.m._akrqxs.png",
+        "alt": "Cheddar 'La Serenisima'",
+        "categoria": "quesos",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Paleta Fox Sanguchera(Etiqueta Azul)",
         "precio": "$5.400 xkg",
         "pesoEstimado": "4.8 – 5.3 kg",
@@ -414,35 +423,209 @@
         "tipoVenta": "horma"
     },
     {
-        "nombre": "Tabla de Quesos y Fiambre Para 10 Personas",
-        "precio": "$20.000",
-        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780007287/Picada_gourmet_argen_bswi54.png",
-        "alt": "Tabla para 10 personas",
-        "categoria": "picadas",
-        "tipoVenta": "fijo"
-    },
-    {
-        "nombre": "Tabla de Quesos y Fiambre Para 6 Personas",
-        "precio": "$15.000",
-        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780007287/Picada_gourmet_argen_bswi54.png",
-        "alt": "Tabla para 6 personas",
-        "categoria": "picadas",
-        "tipoVenta": "fijo"
-    },
-    {
         "nombre": "Tabla de Quesos y Fiambre Para 5 Personas",
-        "precio": "$12.000",
+        "precio": "$20.000",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780007287/Picada_gourmet_argen_bswi54.png",
         "alt": "Tabla para 5 personas",
         "categoria": "picadas",
         "tipoVenta": "fijo"
     },
     {
+        "nombre": "Tabla de Quesos y Fiambre Para 6 Personas",
+        "precio": "$25.000",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780007287/Picada_gourmet_argen_bswi54.png",
+        "alt": "Tabla para 6 personas",
+        "categoria": "picadas",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Tabla de Quesos y Fiambre Para 8 Personas",
-        "precio": "$18.000",
+        "precio": "$35.000",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780007287/Picada_gourmet_argen_bswi54.png",
         "alt": "Tabla para 8 personas",
         "categoria": "picadas",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Tabla de Quesos y Fiambre Para 10 Personas",
+        "precio": "$40.000",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780007287/Picada_gourmet_argen_bswi54.png",
+        "alt": "Tabla para 10 personas",
+        "categoria": "picadas",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Leche Serenisima 1L",
+        "precio": "$1.700",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780077032/Sachet_de_leche_La_S_lxantb.png",
+        "alt": "Leche Serenisima 1L",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Leche Armonía 1L",
+        "precio": "$1.550",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780077029/Sachet_de_leche_Armo_cptlbn.png",
+        "alt": "Leche Armonía 1L",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Yogur Bebible Cremigal 1L",
+        "precio": "$1.500",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779558396/ChatGPT_Image_23_may_2026_02_36_12_p.m._xbs1hl.png",
+        "alt": "Yogur Bebible Cremigal 1L",
+        "categoria": "almacen",
+        "tipoVenta": "fijo",
+        "variedades": ["frutilla","vainilla"]
+    },
+    {
+        "nombre": "Yogur firme Serenisima",
+        "precio": "$1.900",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780075268/Yogures_La_Seren%C3%ADsim_iacuoj.png",
+        "alt": "Yogur firme Serenisima",
+        "categoria": "almacen",
+        "tipoVenta": "fijo",
+        "variedades": ["frutilla","vainilla"]
+    },
+    {
+        "nombre": "Yogur firme Cremigal",
+        "precio": "$500",
+        "imagen": "",
+        "alt": "Yogur firme Cremigal",
+        "categoria": "almacen",
+        "tipoVenta": "fijo",
+        "variedades": ["frutilla","vainilla"]
+    },
+    {
+        "nombre": "Manteca x100g 'La Paulina'",
+        "precio": "$1.750",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074543/ChatGPT_Image_29_may_2026_02_08_42_p.m._iwaxxu.png",
+        "alt": "Manteca x100g 'La Paulina'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Manteca x100g 'La Serenisima'",
+        "precio": "$2.100",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780075269/Manteca_La_Seren%C3%ADsim_pfu31v.png",
+        "alt": "Manteca x100g 'La Serenisima'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Manteca x200g 'La Serenisima'",
+        "precio": "$3.800",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074391/ChatGPT_Image_29_may_2026_02_04_32_p.m._ib03n3.png",
+        "alt": "Manteca x200g 'La Serenisima'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Crema x220g 'La Serenisima'",
+        "precio": "$2.300",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074383/ChatGPT_Image_29_may_2026_01_53_07_p.m._krpiir.png",
+        "alt": "Crema x220g 'La Serenisima'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Crema x330g 'La Serenisima'",
+        "precio": "$3.700",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074388/ChatGPT_Image_29_may_2026_02_01_57_p.m._isdv2y.png",
+        "alt": "Crema x330g 'La Serenisima'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Salchichas Granja Iris x6 'La Serenisima'",
+        "precio": "$2.190",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780075269/Salchichas_Granja_Ir_ttgx0i.png",
+        "alt": "Salchichas Granja Iris x6 'La Serenisima'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Salchichas Granja Iris x12 'La Serenisima'",
+        "precio": "$3.950",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780078806/Salchichas_Granja_Ir_itpxdj.png",
+        "alt": "Salchichas Granja Iris x12 'La Serenisima'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Queso Finlandia 'La Serenisima'",
+        "precio": "$2.950",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780075268/ChatGPT_Image_29_may_2026_02_12_44_p.m._recnx3.png",
+        "alt": "Queso Finlandia 'La Serenisima'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo",
+        "variedades": ["clàsico", "light", "jamòn", "salame", "cheddar"]
+    },
+    {
+        "nombre": "Queso Ricrem",
+        "precio": "$2.000",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074454/Ricrem_Cl%C3%A1sico_PNG_lwtqkz.png",
+        "alt": "Queso Ricrem",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Queso Paulina",
+        "precio": "$3.150",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074543/Quesos_de_Crema_La_P_ni3jb4.png",
+        "alt": "Queso Paulina",
+        "categoria": "almacen",
+        "tipoVenta": "fijo",
+        "variedades": ["entero", "light"]
+    },
+    {
+        "nombre": "Levadura x50g `Calza`",
+        "precio": "$750",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074385/ChatGPT_Image_29_may_2026_01_55_28_p.m._baigj9.png",
+        "alt": "Levadura x50g `Calza`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Levadura x500g `Calza`",
+        "precio": "$4700",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074383/ChatGPT_Image_29_may_2026_01_57_43_p.m._teiyen.png",
+        "alt": "Levadura x500g `Calza`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Dulce Batata Cajòn x 5kg `Cayfar`",
+        "precio": "$10.600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780080029/Dulce_de_Batata_Cayf_amo8bv.png",
+        "alt": "Dulce Batata Cajòn x 5kg `Cayfar`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo",
+        "variedades": ["batata", "batata con cacao"]
+    },
+    {
+        "nombre": "Dulce de Membrillo Cajòn x 5kg `Cayfar`",
+        "precio": "$12.600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780077031/Dulce_de_Membrillo_C_jq5evg.png",
+        "alt": "Dulce de Membrillo Cajòn x 5kg `Cayfar`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Dulce de Batata Lata x 5kg `Cayfar`",
+        "precio": "$13.200",
+        "imagen": "",
+        "alt": "Dulce de Batata Lata x 5kg `Cayfar`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Dulce de Membrillo Lata x 5kg `Cayfar`",
+        "precio": "$17.700",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780077031/Dulce_de_Membrillo_lata_uzx84i.png",
+        "alt": "Dulce de Membrillo Lata x 5kg `Cayfar`",
+        "categoria": "almacen",
         "tipoVenta": "fijo"
     },
     {
@@ -530,15 +713,6 @@
         "categoria": "almacen",
         "tipoVenta": "fijo",
         "variedades": ["ravioles","tortelettis","sorrentinos"]
-    },
-    {
-        "nombre": "Yogur Bebible Cremigal 1L",
-        "precio": "$1.500",
-        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779558396/ChatGPT_Image_23_may_2026_02_36_12_p.m._xbs1hl.png",
-        "alt": "Yogur Bebible Cremigal 1L",
-        "categoria": "almacen",
-        "tipoVenta": "fijo",
-        "variedades": ["frutilla","vainilla"]
     },
     {
         "nombre": "Prepizzas x2",
