@@ -473,14 +473,6 @@
         "tipoVenta": "fijo"
     },
     {
-        "nombre": "Maple de Huevo nº1",
-        "precio": "$5.900",
-        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138699/ChatGPT_Image_10_jun_2026_15_31_20_mvxkje.png",
-        "alt": "Maple de Huevo",
-        "categoria": "almacen",
-        "tipoVenta": "fijo"
-    },
-    {
         "nombre": "Leche Serenisima 1L",
         "precio": "$1.750",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780077032/Sachet_de_leche_La_S_lxantb.png",
@@ -548,6 +540,22 @@
         "tipoVenta": "fijo"
     },
     {
+        "nombre": "Crema x220g 'La Serenisima'",
+        "precio": "$2.300",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074383/ChatGPT_Image_29_may_2026_01_53_07_p.m._krpiir.png",
+        "alt": "Crema x220g 'La Serenisima'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Crema x330g 'La Serenisima'",
+        "precio": "$3.700",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074388/ChatGPT_Image_29_may_2026_02_01_57_p.m._isdv2y.png",
+        "alt": "Crema x330g 'La Serenisima'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Dulce de Leche Familiar x 200g 'La Paulina'",
         "precio": "$1.650",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138694/ChatGPT_Image_10_jun_2026_16_22_06_szzcnc.png",
@@ -585,22 +593,6 @@
         "precio": "$3.800",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138699/ChatGPT_Image_10_jun_2026_15_34_22_gsal76.png",
         "alt": "Dulce de Leche Repostero x 400g 'La Serenisima'",
-        "categoria": "almacen",
-        "tipoVenta": "fijo"
-    },
-    {
-        "nombre": "Crema x220g 'La Serenisima'",
-        "precio": "$2.300",
-        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074383/ChatGPT_Image_29_may_2026_01_53_07_p.m._krpiir.png",
-        "alt": "Crema x220g 'La Serenisima'",
-        "categoria": "almacen",
-        "tipoVenta": "fijo"
-    },
-    {
-        "nombre": "Crema x330g 'La Serenisima'",
-        "precio": "$3.700",
-        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074388/ChatGPT_Image_29_may_2026_02_01_57_p.m._isdv2y.png",
-        "alt": "Crema x330g 'La Serenisima'",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     },
@@ -828,6 +820,15 @@
         "tipoVenta": "fijo"
     },
     {
+        "nombre": "Ravioles `El Sol` 500g",
+        "precio": "$3.000",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474604/ChatGPT_Image_22_may_2026_03_28_18_p.m._ignspk.png",
+        "alt": "Ravioles `El Sol` 500g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo",
+        "variedades": ["ravioles","tortelettis","sorrentinos"]
+    },
+    {
         "nombre": "Ñoquis `El Sol` 1kg",
         "precio": "$4.100",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474599/22_may_2026_03_23_56_p.m._xwdzol.png",
@@ -845,13 +846,12 @@
         "variedades": ["cuatro quesos","espinaca","ricota","calabaza & mozzarella","tomate & mozzarella"]
     },
     {
-        "nombre": "Ravioles `El Sol` 500g",
-        "precio": "$3.000",
-        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474604/ChatGPT_Image_22_may_2026_03_28_18_p.m._ignspk.png",
-        "alt": "Ravioles `El Sol` 500g",
+        "nombre": "Maple de Huevo nº1",
+        "precio": "$5.900",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138699/ChatGPT_Image_10_jun_2026_15_31_20_mvxkje.png",
+        "alt": "Maple de Huevo",
         "categoria": "almacen",
-        "tipoVenta": "fijo",
-        "variedades": ["ravioles","tortelettis","sorrentinos"]
+        "tipoVenta": "fijo"
     },
     {
         "nombre": "Prepizzas x2",
