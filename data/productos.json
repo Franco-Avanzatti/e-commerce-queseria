@@ -936,6 +936,22 @@
         "variedades": ["tirabuzón", "coditos", "moñitos", "mostachol"]
     },
     {
+        "nombre": "Yerba Mañanita x 500g",
+        "precio": "$1.860",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781193972/ChatGPT_Image_11_jun_2026_12_52_08_fxxaj8.png",
+        "alt": "Yerba Mañanita x 500g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Yerba Taragui x 500g",
+        "precio": "$1.860",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781193966/ChatGPT_Image_11_jun_2026_12_54_49_qmuuor.png",
+        "alt": "Yerba Taragui x 500g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Sal Fína x 500g",
         "precio": "$530",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138912/copy_of_chatgpt_image_10_jun_2026_16_33_20_nrlmbw.png",
@@ -948,6 +964,14 @@
         "precio": "$750",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138703/ChatGPT_Image_10_jun_2026_16_37_54_onjofu.png",
         "alt": "Sal Gruesa",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Mayonesa Natura x 125g",
+        "precio": "$15.000",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781193974/ChatGPT_Image_11_jun_2026_12_41_19_aqyu0a.png",
+        "alt": "Mayonesa Natura x 125g",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     },
