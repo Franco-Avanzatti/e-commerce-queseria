@@ -936,15 +936,15 @@
         "variedades": ["tirabuzón", "coditos", "moñitos", "mostachol"]
     },
     {
-        "nombre": "Sal Fína",
-        "precio": "$750",
+        "nombre": "Sal Fína x 500g",
+        "precio": "$530",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138912/copy_of_chatgpt_image_10_jun_2026_16_33_20_nrlmbw.png",
         "alt": "Sal Fína",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     },
     {
-        "nombre": "Sal Gruesa",
+        "nombre": "Sal Gruesa x 1kg",
         "precio": "$750",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138703/ChatGPT_Image_10_jun_2026_16_37_54_onjofu.png",
         "alt": "Sal Gruesa",
@@ -984,6 +984,31 @@
         "tipoVenta": "fijo"
     },
     {
+        "nombre": "Papas Fritas Slices Clásicas x 65g",
+        "precio": "$1.200",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781115434/ChatGPT_Image_10_jun_2026_15_06_00_cvy1oa.png",
+        "alt": "Papas Fritas Slices Clásicas x 65g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Papas Fritas Savorizadas x 65g",
+        "precio": "$1.600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781115434/ChatGPT_Image_10_jun_2026_15_08_33_jryjh6.png",
+        "alt": "Papas Fritas Savorizadas x 65g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo",
+        "variedades": ["cheddar", "jamon serrano", "ketchup"]
+    },
+    {
+        "nombre": "Bots Bastoncitos x 80g",
+        "precio": "$1.600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781115430/ChatGPT_Image_10_jun_2026_15_15_39_ysuz2d.png",
+        "alt": "Bots Bastoncitos x 80g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Jugo rinde x 2L(10 sobres)",
         "precio": "$6.300",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812243/ChatGPT_Image_26_may_2026_01_05_55_p.m._psv6on.png",
@@ -1009,6 +1034,22 @@
         "tipoVenta": "fijo"
     },
     {
+        "nombre": "Aceite Natura x 1.5L",
+        "precio": "$6.900",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138694/ChatGPT_Image_10_jun_2026_21_34_26_w2uxme.png",
+        "alt": "Aceite Natura x 1.5L",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Vinagre Dos Anclas x 1.5L",
+        "precio": "$1.400",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138692/ChatGPT_Image_10_jun_2026_09_28_35_p.m._yclcoz.png",
+        "alt": "Vinagre Dos Anclas x 1.5L",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Harina 0000 x 25kg",
         "precio": "$22.000",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781139215/copy_of_chatgpt_image_10_jun_2026_15_27_49_c99eank.png",
@@ -1017,10 +1058,26 @@
         "tipoVenta": "fijo"
     },
     {
+        "nombre": "Grasa x 500g",
+        "precio": "$1.800",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779383312/grasa_i5wmqm.png",
+        "alt": "Grasa x 500g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": " Balde Grasa de Cerdo x 10kg",
         "precio": "$51.000",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781109125/Copilot_20260610_103821_ncn3n6.png",
         "alt": "Balde Grasa de Cerdo",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Tomate Cayfar x 8kg",
+        "precio": "$51.000",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138693/ChatGPT_Image_10_jun_2026_21_38_37_b15kwx.png",
+        "alt": "Tomate Cayfar x 8kg",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     }
