@@ -936,6 +936,31 @@
         "variedades": ["tirabuzón", "coditos", "moñitos", "mostachol"]
     },
     {
+        "nombre":"Harina Morixe 000 x 1kg",
+        "precio": "$780",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781195751/ChatGPT_Image_11_jun_2026_01_32_39_p.m._l4gxrm.png",
+        "alt": "Harina Morixe 000 x 1kg",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Lomitos de Atún 'Cumaná'",
+        "precio": "$2.600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781193967/ChatGPT_Image_11_jun_2026_12_44_39_alajvc.png",
+        "alt": "Lomitos de Atún 'Cumaná'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Paté y Picadillo",
+        "precio": "$950",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781193965/ChatGPT_Image_11_jun_2026_12_47_17_wfkjwc.png",
+        "alt": "Paté y Picadillo",
+        "categoria": "almacen",
+        "tipoVenta": "fijo",
+        "variedades": ["paté", "picadillo"]
+    },
+    {
         "nombre": "Yerba Mañanita x 500g",
         "precio": "$1.860",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781193972/ChatGPT_Image_11_jun_2026_12_52_08_fxxaj8.png",
@@ -1033,6 +1058,30 @@
         "tipoVenta": "fijo"
     },
     {
+        "nombre": "Papas Fritas Slices Clásicas x 500g",
+        "precio": "$5.600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781195218/ChatGPT_Image_11_jun_2026_12_12_55_akphr6.png",
+        "alt": "Papas Fritas Slices Clásicas x 500g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Papas Pay Slices x 1kg",
+        "precio": "$9.300",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781195218/ChatGPT_Image_11_jun_2026_12_10_23_kwgx6b.png",
+        "alt": "Papas Pay Slices x 1kg",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Bots Tubitos x 330g",
+        "precio": "$1.600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781193971/ChatGPT_Image_11_jun_2026_12_15_59_dbmufe.png",
+        "alt": "Bots Tubitos x 330g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Jugo rinde x 2L(10 sobres)",
         "precio": "$6.300",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812243/ChatGPT_Image_26_may_2026_01_05_55_p.m._psv6on.png",
@@ -1049,11 +1098,19 @@
         "categoria": "almacen",
         "tipoVenta": "fijo"
     },
-     {
+    {
         "nombre": "Hamburguesas Paty Cancha x 2 unidades",
         "precio": "$5.800",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812243/paty_w2jtqn.png",
         "alt": "Hamburguesas Paty Cancha x 2 unidades",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Papas Fritas Congeladas x 2kg 'Cool Mind'",
+        "precio": "$7.500",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781193971/ChatGPT_Image_11_jun_2026_12_38_49_gl7hrp.png",
+        "alt": "Papas Fritas Congeladas x 2kg 'Cool Mind'",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     },
