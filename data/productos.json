@@ -1,7 +1,7 @@
 [
     {
         "nombre": "Cremoso Javifer por Horma",
-        "precio": "$7.000 xkg",
+        "precio": "$7.200 xkg",
         "pesoEstimado": "4 – 4.5 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300403/2_ajacm4.png",
         "alt": "Cremoso Javifer",
@@ -10,7 +10,7 @@
     },
     {
         "nombre": "Cremoso Punta del Agua por Horma",
-        "precio": "$9.000 xkg",
+        "precio": "$9.200 xkg",
         "pesoEstimado": "3.8 – 4.5 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300402/3_iwviux.png",
         "alt": "Cremoso Punta del Agua",
@@ -19,7 +19,7 @@
     },
     {
         "nombre": "Barra Javifer por Horma",
-        "precio": "$9.000 xkg",
+        "precio": "$9.200 xkg",
         "pesoEstimado": "4 – 5 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302698/quesosduros-7_zo0zcz.png",
         "alt": "Barra Javifer",
@@ -28,7 +28,7 @@
     },
     {
         "nombre": "Muzzarella Javifer por Horma",
-        "precio": "$8.200 xkg",
+        "precio": "$8.400 xkg",
         "pesoEstimado": "4 – 4.8 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302696/quesosduros-8_gfxdv4.png",
         "alt": "Muzzarella Javifer",
@@ -55,7 +55,7 @@
     },
     {
         "nombre": "Provoleta Javifer",
-        "precio": "$15.000 xkg",
+        "precio": "$15.400 xkg",
         "pesoEstimado": "4 – 4.5  kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302695/quesosduros-2_ke4ebq.png",
         "alt": "Provoleta Javifer",
@@ -64,7 +64,7 @@
     },
     {
         "nombre": "Sardo Javifer",
-        "precio": "$10.900 xkg",
+        "precio": "$15.500 xkg",
         "pesoEstimado": "2.7 – 3 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779383312/quesosduros-10_xd6iej.png",
         "alt": "Sardo Javifer",
@@ -73,7 +73,7 @@
     },
     {
         "nombre": "Sardo Javifer `Estacionado`",
-        "precio": "$15.900 xkg",
+        "precio": "$16.300 xkg",
         "pesoEstimado": "3.5 – 4 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302695/quesosduros-4_a1ykvk.png",
         "alt": "Sardo Javifer `Estacionado`",
@@ -91,7 +91,7 @@
     },
     {
         "nombre": "Provolone Javifer",
-        "precio": "$16.800 xkg",
+        "precio": "$17.300 xkg",
         "pesoEstimado": "4.5 – 5 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302694/quesosduros-5_ggfieu.png",
         "alt": "Provolone Javifer",
@@ -100,7 +100,7 @@
     },
     {
         "nombre": "Gruyere Javifer",
-        "precio": "$16.300 xkg",
+        "precio": "$16.500 xkg",
         "pesoEstimado": "9 – 10 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779383613/quesosduros-11_rkrdxa.png",
         "alt": "Gruyere Javifer",
@@ -109,7 +109,7 @@
     },
     {
         "nombre": "Fontina Javifer",
-        "precio": "$15.400 xkg",
+        "precio": "$15.700 xkg",
         "pesoEstimado": "9 – 10 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779302695/quesosduros-6_ckzkdd.png",
         "alt": "Fontina Javifer",
@@ -118,7 +118,7 @@
     },
     {
         "nombre": "Pategrast Melincue",
-        "precio": "$15.200 xkg",
+        "precio": "$15.300 xkg",
         "pesoEstimado": "4 – 4.5 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779303045/copy_of_quesosduros-3_qogp3s.png",
         "alt": "Pategrast Melincue",
@@ -163,7 +163,7 @@
     },
     {
         "nombre": "Paleta Fox Sanguchera(Etiqueta Azul)",
-        "precio": "$5.400 xkg",
+        "precio": "$5.600 xkg",
         "pesoEstimado": "4.8 – 5.3 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300313/Etiqueta-Azul_ymnocn.png",
         "alt": "Paleta Fox Etiqueta Azul",
@@ -244,7 +244,7 @@
     },
     {
         "nombre": "Lomo Horneado c/ Hierbas Fox",
-        "precio": "$20.200 xkg",
+        "precio": "$18.900 xkg",
         "pesoEstimado": "1.5 – 1.8 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779390228/Lomo_horneado_de_cer_aza3r7.png",
         "alt": "Lomo Horneado c/ Hierbas Fox",
@@ -253,7 +253,7 @@
     },
     {
         "nombre": "Pernil de Cerdo Fox",
-        "precio": "$24.800 xkg",
+        "precio": "$23.500 xkg",
         "pesoEstimado": "2 – 2.5 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779389900/ChatGPT_Image_21_may_2026_03_54_19_p.m._xbchau.png",
         "alt": "Pernil de Cerdo Fox",
@@ -262,7 +262,7 @@
     },
     {
         "nombre": "Jamon Crudo Fox",
-        "precio": "$39.200 xkg",
+        "precio": "$41.400 xkg",
         "pesoEstimado": "2 – 2.5 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300316/jamon-crudo_b1ua8u.png",
         "alt": "Jamon Crudo Fox",
@@ -289,7 +289,7 @@
     },
     {
         "nombre": "Panceta Salada Fox",
-        "precio": "$21.800 xkg",
+        "precio": "$19.000 xkg",
         "pesoEstimado": "1.2 – 1.4 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779390745/Panceta_salada_libre_bxx8ye.png",
         "alt": "Panceta Salada Fox",
@@ -324,8 +324,17 @@
         "tipoVenta": "fijo"
     },
     {
+        "nombre": "Chorizos Fox x18 unidades",
+        "precio": "$12.500",
+        "pesoEstimado": "2 kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781109125/ChatGPT_Image_10_jun_2026_11_08_22_a.m._js3hbt.png",
+        "alt": "Chorizos Fox x18 unidades",
+        "categoria": "fiambres",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Matambre de Pollo Fox",
-        "precio": "$15.200 xkg",
+        "precio": "$16.200 xkg",
         "pesoEstimado": "1,5 – 2 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300316/matambre-pollo_sd4xfh.png",
         "alt": "Matambre de Pollo Fox",
@@ -334,7 +343,7 @@
     },
     {
         "nombre": "Matambre Vacuno Fox",
-        "precio": "$21.100 xkg",
+        "precio": "$22.500 xkg",
         "pesoEstimado": "1,5 – 2 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474605/ChatGPT_Image_22_may_2026_03_15_22_p.m._lplfek.png",
         "alt": "Matambre Vacuno Fox",
@@ -370,7 +379,7 @@
     },
     {
         "nombre": "Salame Milan 201",
-        "precio": "$10.700 xkg",
+        "precio": "$10.200 xkg",
         "pesoEstimado": "2 – 2.3 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474599/ChatGPT_Image_22_may_2026_03_18_12_p.m._hxy2rp.png",
         "alt": "Salame Milan 201",
@@ -392,6 +401,15 @@
         "pesoEstimado": "2.2 – 2.8 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300317/salame-crespon_ih9drf.png",
         "alt": "Salame Crespon Fox",
+        "categoria": "fiambres",
+        "tipoVenta": "horma"
+    },
+    {
+        "nombre": "Salame Español Fox",
+        "precio": "$15.200 xkg",
+        "pesoEstimado": "2.2 – 2.8 kg",
+        "imagen": "",
+        "alt": "Salame Español Fox",
         "categoria": "fiambres",
         "tipoVenta": "horma"
     },
@@ -455,8 +473,16 @@
         "tipoVenta": "fijo"
     },
     {
+        "nombre": "Maple de Huevo nº1",
+        "precio": "$5.900",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138699/ChatGPT_Image_10_jun_2026_15_31_20_mvxkje.png",
+        "alt": "Maple de Huevo",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Leche Serenisima 1L",
-        "precio": "$1.700",
+        "precio": "$1.750",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780077032/Sachet_de_leche_La_S_lxantb.png",
         "alt": "Leche Serenisima 1L",
         "categoria": "almacen",
@@ -464,7 +490,7 @@
     },
     {
         "nombre": "Leche Armonía 1L",
-        "precio": "$1.550",
+        "precio": "$1.650",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780077029/Sachet_de_leche_Armo_cptlbn.png",
         "alt": "Leche Armonía 1L",
         "categoria": "almacen",
@@ -491,7 +517,7 @@
     {
         "nombre": "Yogur firme Cremigal",
         "precio": "$500",
-        "imagen": "",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138694/ChatGPT_Image_10_jun_2026_21_42_31_gedmlu.png",
         "alt": "Yogur firme Cremigal",
         "categoria": "almacen",
         "tipoVenta": "fijo",
@@ -518,6 +544,47 @@
         "precio": "$3.800",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074391/ChatGPT_Image_29_may_2026_02_04_32_p.m._ib03n3.png",
         "alt": "Manteca x200g 'La Serenisima'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Dulce de Leche Familiar x 200g 'La Paulina'",
+        "precio": "$1.650",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138694/ChatGPT_Image_10_jun_2026_16_22_06_szzcnc.png",
+        "alt": "Dulce de Leche x 200g 'La Paulina'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Dulce de Leche x 200g 'La Serenisima'",
+        "precio": "$2.400",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138696/ChatGPT_Image_10_jun_2026_16_19_00_cvi9sc.png",
+        "alt": "Dulce de Leche x 200g 'La Serenisima'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo",
+        "variedades":["clásico", "colonial"]
+    },
+    {
+        "nombre": "Dulce de Leche Clásico x 400g 'La Serenisima'",
+        "precio": "$2.900",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138696/ChatGPT_Image_10_jun_2026_15_44_28_robyso.png",
+        "alt": "Dulce de Leche Clásico x 400g 'La Serenisima'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Dulce de Leche Colonial x 400g 'La Serenisima'",
+        "precio": "$3.150",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138696/ChatGPT_Image_10_jun_2026_15_51_54_jezbdw.png",
+        "alt": "Dulce de Leche Colonial x 400g 'La Serenisima'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Dulce de Leche Repostero x 400g 'La Serenisima'",
+        "precio": "$3.800",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138699/ChatGPT_Image_10_jun_2026_15_34_22_gsal76.png",
+        "alt": "Dulce de Leche Repostero x 400g 'La Serenisima'",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     },
@@ -589,9 +656,81 @@
     },
     {
         "nombre": "Levadura x500g `Calza`",
-        "precio": "$4700",
+        "precio": "$4.700",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1780074383/ChatGPT_Image_29_may_2026_01_57_43_p.m._teiyen.png",
         "alt": "Levadura x500g `Calza`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Aceitunas Verdes 0 x 1kg `Morando`",
+        "precio": "$10.500",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781109130/ChatGPT_Image_10_jun_2026_10_28_41_a.m._zr0wxy.png",
+        "alt": "Aceitunas Verdes 0 x 1kg `Morando`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Aceitunas Negras 0 x 1kg `Morando`",
+        "precio": "$15.900",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781109130/ChatGPT_Image_10_jun_2026_10_31_32_a.m._wxfkjc.png",
+        "alt": "Aceitunas Negras 0 x 1kg `Morando`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Aceitunas Negras 0 x 5kg `Morando`",
+        "precio": "$58.500",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781109128/Copilot_20260610_103448_wejlg6.png",
+        "alt": "Aceitunas Negras 0 x 5kg `Morando`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Pan de Hamburguesa `Delipan`",
+        "precio": "$1.600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781109130/Copilot_20260610_113312_lyys0v.png",
+        "alt": "Pan de Hamburguesa `Delipan`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Pan de Pancho `Delipan`",
+        "precio": "$1.600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781111599/ChatGPT_Image_10_jun_2026_14_07_23_uekhav.png",
+        "alt": "Pan de Pancho `Delipan`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Pan Lactal Chico `Delipan`",
+        "precio": "$2.100",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781109619/copy_of_copilot_20260610_112422_ctyinjl.png",
+        "alt": "Pan Lactal Chico `Delipan`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Pan Salvado Chico `Delipan`",
+        "precio": "$2.100",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781109958/copy_of_copilot_20260610_112100_m3weya.png",
+        "alt": "Pan Salvado Chico `Delipan`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Pan Lactal Grande `Delipan`",
+        "precio": "$2.800",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781111635/copy_of_chatgpt_image_10_jun_2026_14_12_49_ear82u.png",
+        "alt": "Pan Lactal Grande `Delipan`",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Pan Salvado Grande `Delipan`",
+        "precio": "$2.800",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781110029/copy_of_copilot_20260610_111919_prizin.png",
+        "alt": "Pan Salvado Grande `Delipan`",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     },
@@ -716,7 +855,7 @@
     },
     {
         "nombre": "Prepizzas x2",
-        "precio": "$2.400",
+        "precio": "$2.900",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779809036/ChatGPT_Image_23_may_2026_03_23_55_p.m._amql47.png",
         "alt": "Prepizzas x2",
         "categoria": "almacen",
@@ -724,7 +863,7 @@
     },
     {
         "nombre": "Pizzetas x12",
-        "precio": "$2.400",
+        "precio": "$2.600",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779809035/ChatGPT_Image_23_may_2026_03_28_47_p.m._w6z3q8.png",
         "alt": "Pizzetas x12",
         "categoria": "almacen",
@@ -797,10 +936,50 @@
         "variedades": ["tirabuzón", "coditos", "moñitos", "mostachol"]
     },
     {
+        "nombre": "Sal Fína",
+        "precio": "$750",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138912/copy_of_chatgpt_image_10_jun_2026_16_33_20_nrlmbw.png",
+        "alt": "Sal Fína",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Sal Gruesa",
+        "precio": "$750",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138703/ChatGPT_Image_10_jun_2026_16_37_54_onjofu.png",
+        "alt": "Sal Gruesa",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Mayonesa Natura x 250g",
         "precio": "$1.600",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812244/ChatGPT_Image_26_may_2026_01_03_27_p.m._kx98ov.png",
         "alt": "Mayonesa Natura x 250g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Mayonesa Natura x 3kg",
+        "precio": "$15.000",
+        "imagen": "",
+        "alt": "Mayonesa Natura x 3kg",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Mostaza Natura x 3kg",
+        "precio": "$12.500",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138692/ChatGPT_Image_10_jun_2026_16_51_40_c4xso0.png",
+        "alt": "Mostaza Natura x 3kg",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Ketchup Natura x 3kg",
+        "precio": "$15.400",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781138695/ChatGPT_Image_10_jun_2026_16_48_59_h2rcsn.png",
+        "alt": "Ketchup Natura x 3kg",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     },
@@ -830,10 +1009,18 @@
         "tipoVenta": "fijo"
     },
     {
-        "nombre": "Grasa Vacuna",
-        "precio": "$1.800",
-        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779383312/grasa_i5wmqm.png",
-        "alt": "Grasa Vacuna",
+        "nombre": "Harina 0000 x 25kg",
+        "precio": "$22.000",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781139215/copy_of_chatgpt_image_10_jun_2026_15_27_49_c99eank.png",
+        "alt": "Harina 0000",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": " Balde Grasa de Cerdo x 10kg",
+        "precio": "$51.000",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781109125/Copilot_20260610_103821_ncn3n6.png",
+        "alt": "Balde Grasa de Cerdo",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     }
