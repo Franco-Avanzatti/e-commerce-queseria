@@ -7,7 +7,7 @@ const productos = [
     // ── QUESOS ──────────────────────────────
     {
         nombre: "Cremoso Javifer por Horma",
-        precio: "$7.000 xkg",
+        precio: "$7.200 xkg",
         pesoEstimado: "4 – 4.5 kg",
         imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300403/2_ajacm4.png",
         alt: "Cremoso Javifer",
@@ -16,7 +16,7 @@ const productos = [
     },
     {
         nombre: "Cremoso Punta del Agua por Horma",
-        precio: "$9.000 xkg",
+        precio: "$9.200 xkg",
         pesoEstimado: "3.8 – 4.5 kg",
         imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300402/3_iwviux.png",
         alt: "Cremoso Punta del Agua",
@@ -35,16 +35,16 @@ const productos = [
     // ── FIAMBES ─────────────────────────────
     {
         nombre: "Paleta Fox (Etiqueta Negra)",
-        precio: "$4200 xkg",
+        precio: "$8.600 xkg",
         pesoEstimado: "6 – 8 kg",
-        imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300314/Etiqueta-Roja_rguwpx.png",
+        imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474603/ChatGPT_Image_22_may_2026_03_12_12_p.m._ti0ky3.png",
         alt: "Paleta Fox Etiqueta Negra",
         categoria: "fiambres",
         tipoVenta: "horma"
     },
     {
         nombre: "Jamon Natural Bajo en Sodio Fox",
-        precio: "$5200 xkg",
+        precio: "$14.500 xkg",
         pesoEstimado: "8 – 10 kg",
         imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300315/jamon-natural_wn9yfm.png",
         alt: "Jamon Natural Fox",
@@ -64,7 +64,7 @@ const productos = [
     // ── PICADAS ─────────────────────────────
     {
         "nombre": "Panceta Ahumada Fox",
-        "precio": "$21.800 xkg",
+        "precio": "$19.000 xkg",
         "pesoEstimado": "1.2 – 1.5 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779389901/ChatGPT_Image_21_may_2026_03_57_30_p.m._dmibmd.png",
         "alt": "Panceta Ahumada Fox",
@@ -73,7 +73,7 @@ const productos = [
     },
     {
         "nombre": "Panceta Salada Fox",
-        "precio": "$21.800 xkg",
+        "precio": "$19.000 xkg",
         "pesoEstimado": "1.2 – 1.4 kg",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779390745/Panceta_salada_libre_bxx8ye.png",
         "alt": "Panceta Salada Fox",
