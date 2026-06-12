@@ -36,7 +36,7 @@ const productos = [
     {
         nombre: "Paleta Fox (Etiqueta Negra)",
         precio: "$8.600 xkg",
-        pesoEstimado: "6 – 8 kg",
+        pesoEstimado: "5.25 – 5.5 kg",
         imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779474603/ChatGPT_Image_22_may_2026_03_12_12_p.m._ti0ky3.png",
         alt: "Paleta Fox Etiqueta Negra",
         categoria: "fiambres",
@@ -45,7 +45,7 @@ const productos = [
     {
         nombre: "Jamon Natural Bajo en Sodio Fox",
         precio: "$14.500 xkg",
-        pesoEstimado: "8 – 10 kg",
+        pesoEstimado: "4.8 – 5.2 kg",
         imagen: "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779300315/jamon-natural_wn9yfm.png",
         alt: "Jamon Natural Fox",
         categoria: "fiambres",
