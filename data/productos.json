@@ -918,28 +918,67 @@
         "tipoVenta": "fijo"
     },
     {
-        "nombre": "Fideos Sol Pampeano Foratti, Spaghetti, Tallarines",
+        "nombre": "Fideos Sol Pampeano Foratti",
         "precio": "$850",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812242/ChatGPT_Image_26_may_2026_12_57_24_p.m._vwlgmw.png",
         "alt": "Fideos Sol Pampeano Foratti, Spaghetti, Tallarines",
         "categoria": "almacen",
-        "tipoVenta": "fijo",
-        "variedades": ["foratti", "spaghetti", "tallarines"]
+        "tipoVenta": "fijo"
     },
     {
-        "nombre": "Fideos Sol Pampeano tirabuzón, coditos, moñitos, mostachol",
+        "nombre": "Fideos Sol Pampeano",
         "precio": "$750",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812250/ChatGPT_Image_26_may_2026_01_00_18_p.m._rt7dup.png",
-        "alt": "Fideos Sol Pampeano tirabuzón, coditos, moñitos, mostachol",
+        "alt": "Fideos Sol Pampeano",
         "categoria": "almacen",
         "tipoVenta": "fijo",
-        "variedades": ["tirabuzón", "coditos", "moñitos", "mostachol"]
+        "variedades": ["tirabuzón", "coditos", "mostachol", "spaghetti", "tallarines"]
     },
     {
         "nombre":"Harina Morixe 000 x 1kg",
         "precio": "$780",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781195751/ChatGPT_Image_11_jun_2026_01_32_39_p.m._l4gxrm.png",
         "alt": "Harina Morixe 000 x 1kg",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre":"Harina Morixe 0000 x 1kg",
+        "precio": "$1.030",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375138/13_jun_2026_14_47_08_jd67mm.png",
+        "alt": "Harina Morixe 0000 x 1kg",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre":"Harina Leudante 1kg",
+        "precio": "$1.370",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375139/ChatGPT_Image_13_jun_2026_14_49_53_biqt3a.png",
+        "alt": "Harina Leudante 1kg",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre":"Harina Pureza para Pizza 1kg",
+        "precio": "$1.400",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375146/ChatGPT_Image_13_jun_2026_14_52_25_ullg7b.png",
+        "alt": "Harina Pureza para Pizza 1kg",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Harina 0000 x 25kg",
+        "precio": "$22.000",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781139215/copy_of_chatgpt_image_10_jun_2026_15_27_49_c99eank.png",
+        "alt": "Harina 0000",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre":"Queso Rallado `La Serenisima` x 10unidades de 35g",
+        "precio": "$14.600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375135/ChatGPT_Image_13_jun_2026_15_18_36_ilybax.png",
+        "alt": "Queso Rallado `La Serenisima` x 10unidades de 35g",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     },
@@ -1066,6 +1105,22 @@
         "tipoVenta": "fijo"
     },
     {
+        "nombre": "Papas Fritas Slices corte Americano x 500g",
+        "precio": "$6.200",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375137/ChatGPT_Image_13_jun_2026_15_06_08_w5pdch.png",
+        "alt": "Papas Fritas Slices corte Americano x 500g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Palitos Salados x 1kg",
+        "precio": "$5.800",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375144/ChatGPT_Image_13_jun_2026_14_59_34_wqn1go.png",
+        "alt": "Palitos Salados x 1kg",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Papas Pay Slices x 1kg",
         "precio": "$9.300",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781195218/ChatGPT_Image_11_jun_2026_12_10_23_kwgx6b.png",
@@ -1082,6 +1137,23 @@
         "tipoVenta": "fijo"
     },
     {
+        "nombre": "Bots Batoncitos x 330g",
+        "precio": "$1.600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375144/ChatGPT_Image_13_jun_2026_15_03_00_qxsrtv.png",
+        "alt": "Bots Batoncitos x 330g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Cereales 'Burbujas' x 90g",
+        "precio": "$910",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375147/ChatGPT_Image_13_jun_2026_14_55_11_fa8bkn.png",
+        "alt": "Cereales 'Burbujas' x 90g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo",
+        "variedades": ["copos", "aritos"]
+    },
+    {
         "nombre": "Jugo rinde x 2L(10 sobres)",
         "precio": "$6.300",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812243/ChatGPT_Image_26_may_2026_01_05_55_p.m._psv6on.png",
@@ -1091,10 +1163,26 @@
         "variedades": ["Naranja", "Limón", "Pomelo", "Durazno", "Manzana"]
     },
     {
+        "nombre": "Hamburguesas Barfy x 2 unidades",
+        "precio": "$1.590",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375143/ChatGPT_Image_13_jun_2026_14_40_44_objd42.png",
+        "alt": "Hamburguesas Barfy x 2 unidades",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
         "nombre": "Hamburguesas Barfy x 4 unidades",
         "precio": "$3.480",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1779812240/Barfy_hamburguesas_c_jvifeu.png",
         "alt": "Hamburguesas Barfy x 4 unidades",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Hamburguesas Paladini x 2 unidades",
+        "precio": "$3.100",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375141/ChatGPT_Image_13_jun_2026_14_43_44_r1kpre.png",
+        "alt": "Hamburguesas Paladini x 2 unidades",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     },
@@ -1131,10 +1219,34 @@
         "tipoVenta": "fijo"
     },
     {
-        "nombre": "Harina 0000 x 25kg",
-        "precio": "$22.000",
-        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781139215/copy_of_chatgpt_image_10_jun_2026_15_27_49_c99eank.png",
-        "alt": "Harina 0000",
+        "nombre": "Te 'La Virgiña' en Saquitos x 25unidades",
+        "precio": "$870",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375138/ChatGPT_Image_13_jun_2026_15_07_51_fylio1.png",
+        "alt": "Te 'La Virgiña' en Saquitos x 25unidades",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Mate Cocído 'La Virgiña' en Saquitos x 25unidades",
+        "precio": "$1.100",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375134/ChatGPT_Image_13_jun_2026_15_13_09_gdwpyl.png",
+        "alt": "Mate Cocído 'La Virgiña' en Saquitos x 25unidades",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Toddy x 360g",
+        "precio": "$3.300",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375136/ChatGPT_Image_13_jun_2026_15_23_57_ypjluq.png",
+        "alt": "Toddy x 360g",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Galletitas 'La Providencia' x3unidades",
+        "precio": "$1.320",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781375134/ChatGPT_Image_13_jun_2026_15_21_33_hrnslq.png",
+        "alt": "Galletitas 'La Providencia' x3unidades",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     },
