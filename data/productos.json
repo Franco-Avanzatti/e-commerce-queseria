@@ -54,6 +54,15 @@
         "tipoVenta": "horma"
     },
     {
+        "nombre": "Queso Azul La Quesera",
+        "precio": "$16.900 xkg",
+        "pesoEstimado": "2.4 – 2.5  kg",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781721384/Copilot_20260617_153442_go0em1.png",
+        "alt": "Queso Azul La Quesera",
+        "categoria": "quesos",
+        "tipoVenta": "horma"
+    },
+    {
         "nombre": "Provoleta Javifer",
         "precio": "$15.400 xkg",
         "pesoEstimado": "4 – 4.5  kg",
@@ -746,7 +755,7 @@
     {
         "nombre": "Dulce de Batata Lata x 5kg `Cayfar`",
         "precio": "$13.200",
-        "imagen": "",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781722364/Copilot_20260617_155231_hmenvz.png",
         "alt": "Dulce de Batata Lata x 5kg `Cayfar`",
         "categoria": "almacen",
         "tipoVenta": "fijo"
@@ -1050,7 +1059,7 @@
     {
         "nombre": "Mayonesa Natura x 3kg",
         "precio": "$15.000",
-        "imagen": "",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781722300/Copilot_20260617_155022_vdonvf.png",
         "alt": "Mayonesa Natura x 3kg",
         "categoria": "almacen",
         "tipoVenta": "fijo"
@@ -1199,6 +1208,30 @@
         "precio": "$7.500",
         "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781193971/ChatGPT_Image_11_jun_2026_12_38_49_gl7hrp.png",
         "alt": "Papas Fritas Congeladas x 2kg 'Cool Mind'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Nuegget de Pollo Crocante x 900g 'Sadía'",
+        "precio": "$7.600",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781721383/Copilot_20260617_153602_xzial7.png",
+        "alt": "Nuegget de Pollo Crocante x 900g 'Sadía'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Nuegget Saurio x 900g 'Sadía'",
+        "precio": "$7.300",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781721383/ChatGPT_Image_17_jun_2026_03_32_53_p.m._jmt2u6.png",
+        "alt": "Nuegget Saurio x 900g 'Sadía'",
+        "categoria": "almacen",
+        "tipoVenta": "fijo"
+    },
+    {
+        "nombre": "Chicken Fingers de Pollo x 720g 'Sadía'",
+        "precio": "$6.200",
+        "imagen": "https://res.cloudinary.com/dgwhnezd8/image/upload/v1781721386/ChatGPT_Image_17_jun_2026_03_30_40_p.m._apvwtn.png",
+        "alt": "Chicken Fingers de Pollo x 720g 'Sadía'",
         "categoria": "almacen",
         "tipoVenta": "fijo"
     },
