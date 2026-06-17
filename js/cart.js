@@ -24,6 +24,36 @@ function cartKey(item) {
         : item.nombre;
 }
 
+// ── Notificaciones (Toastify) ───────────────
+function showToast(message, type = 'success') {
+
+    const styles = {
+        success: 'linear-gradient(to right, #6b8e4e, #8aa86b)', // verde queso
+        info:    'linear-gradient(to right, #5b7c99, #7ea3bd)', // azul info
+        error:   'linear-gradient(to right, #b85c5c, #d18080)', // rojo error
+    };
+
+    if (typeof Toastify === 'undefined') {
+        console.warn('Toastify no está cargado. Revisá que el script esté incluido en el HTML.');
+        return;
+    }
+
+    Toastify({
+        text: message,
+        duration: 2500,
+        gravity: 'top',
+        position: 'right',
+        stopOnFocus: true,
+        style: {
+            background: styles[type] || styles.success,
+            borderRadius: '8px',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+            fontFamily: 'inherit',
+            fontSize: '0.9rem',
+        },
+    }).showToast();
+}
+
 // ── Abrir / cerrar ──────────────────────────
 function openCart() {
     document.querySelector('.cart-overlay').classList.add('active');
@@ -55,6 +85,12 @@ function addToCart(producto) {
     saveCart();
     renderCart();
     updateCartBadge();
+
+    const etiqueta = producto.variedadElegida
+        ? `${producto.nombre} (${producto.variedadElegida})`
+        : producto.nombre;
+
+    showToast(`✅ ${etiqueta} agregado al carrito`, 'success');
 }
 
 // ── Cambiar cantidad ────────────────────────
@@ -67,6 +103,7 @@ function changeQty(key, delta) {
 
     if (item.cantidad <= 0) {
         cart = cart.filter(i => cartKey(i) !== key);
+        showToast(`${item.nombre} eliminado del carrito`, 'info');
     }
 
     saveCart();
@@ -76,18 +113,29 @@ function changeQty(key, delta) {
 
 // ── Eliminar producto ───────────────────────
 function removeItem(key) {
+
+    const item = cart.find(i => cartKey(i) === key);
+
     cart = cart.filter(item => cartKey(item) !== key);
     saveCart();
     renderCart();
     updateCartBadge();
+
+    if (item) {
+        showToast(`${item.nombre} eliminado del carrito`, 'info');
+    }
 }
 
 // ── Vaciar carrito ──────────────────────────
-function clearCart() {
+function clearCart(notify = true) {
     cart = [];
     saveCart();
     renderCart();
     updateCartBadge();
+
+    if (notify) {
+        showToast('Carrito vaciado', 'info');
+    }
 }
 
 // ── Extraer número del precio ───────────────
@@ -277,7 +325,10 @@ function renderCart() {
 // ── Enviar a WhatsApp ───────────────────────
 function sendToWhatsApp() {
 
-    if (cart.length === 0) return;
+    if (cart.length === 0) {
+        showToast('Tu carrito está vacío', 'error');
+        return;
+    }
 
     const hormas  = cart.filter(i => i.tipoVenta === 'horma');
     const picadas = cart.filter(i => i.categoria === 'picadas');
@@ -363,7 +414,9 @@ function sendToWhatsApp() {
 
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(mensaje)}`;
 
-    clearCart();
+    showToast('Redirigiendo a WhatsApp...', 'success');
+
+    clearCart(false); // false = no mostrar el toast de "carrito vaciado"
     closeCart();
 
     window.open(url, '_blank');

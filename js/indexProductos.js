@@ -159,7 +159,7 @@ function renderDestacados() {
                 </div>
             `;
 
-        // ── PRODUCTOS FIJOS ─────────────────
+            // ── PRODUCTOS FIJOS ─────────────────
         } else {
 
             div.innerHTML = `

@@ -20,6 +20,7 @@
   <link rel="shortcut icon" href="../images/etiquetas-demas/queseria.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 
 <body>
@@ -248,14 +249,35 @@
   </script>
 
   <!-- 🛒 Cart primero, luego los productos -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   <script src="../js/cart.js"></script>
   <script src="../js/productos.js"></script>
+  <script src="../js/popup-productos.js"></script>
 
   <a href="https://wa.me/5491168123784?text=Hola!%20Quiero%20hacer%20un%20pedido" class="whatsapp-float" target="_blank"
     rel="noopener noreferrer">
     <i class="bi bi-whatsapp"></i>
   </a>
+  <!-- POPUP PRODUCTOS -->
 
+  <div id="popup-productos-overlay">
+
+    <div id="popup-productos-box">
+
+      <h4>🧀 Información importante</h4>
+
+      <p>
+        Las hormas también pueden pedirse por media horma al mismo precio por kilo.
+        Agregala al carrito y aclaralo al finalizar tu pedido por WhatsApp.
+      </p>
+
+      <button id="popup-productos-close">
+        Entendido
+      </button>
+
+    </div>
+
+  </div>
 
 </body>
 
